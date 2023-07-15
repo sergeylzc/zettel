@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+  <head>
+    {%- render "partials/head", page: page, siteMeta: siteMeta, title: title, excerpt: excerpt -%}
+    <link
+      rel="stylesheet"
+      href=""
+      type="text/css"
+      media="all">
+  </head>
+  <body id="top">
+    <main>
+      <header>
+        {%- render "partials/nav", collectionsAll: collections.all, page: page -%}
+      </header>
+      <div>
+        {{ content }}
+      </div>
+      <footer>
+        This is site footer
+      </footer>
+    </main>
+  </body>
+</html>

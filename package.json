@@ -1,0 +1,30 @@
+{
+  "name": "xiaosuidao-slippod",
+  "version": "0.0.1",
+  "description": "This is a site sharing in public my study memos in various subjects.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "serve": "concurrently 'npx @11ty/eleventy --serve' 'npm run sass:watch' 'npm run tailwind:watch'",
+    "build": "npm run sass && npm run tailwind && npx @11ty/eleventy",
+    "sass": "~/.bin/sass src/style/:_site/dist/style/ --no-source-map --style=compressed --update",
+    "tailwind": "npx tailwindcss -i src/style/tailwind.css -o _site/dist/style/tailwind.css",
+    "sass:watch": "~/.bin/sass src/style/:_site/dist/style/ --no-source-map --update -w",
+    "tailwind:watch": "npx tailwindcss -i src/style/tailwind.css -o _site/dist/style/tailwind.css --watch",
+    "clean-output": "rm -rf _site",
+    "clean-input": "rm -rf digest muse misc index.liquid",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@tailwindcss/typography": "^0.5.9",
+    "concurrently": "^7.6.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "luxon": "^3.2.1"
+  }
+}

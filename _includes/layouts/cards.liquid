@@ -1,0 +1,8 @@
+---
+layout: _html
+---
+{%- for card in collections[collectionKey] -%}
+  {{ card.data.title }}
+  {{ card.url }}
+  {{ card.templateContent }}
+{%- endfor -%}
