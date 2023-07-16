@@ -1,0 +1,18 @@
+<h1>Content Publishing Process</h1>
+<ol>
+<li>Update content in xiaosuidao-slippod-content directory</li>
+<li>Run <code>npm run clean-input</code> and <code>npm run clean-output</code> to clean the previous content and generated _site directory</li>
+<li>Copy the updated content from xiaosuidao-slippod-content directory to this directory</li>
+<li>Run <code>npm run build</code> to generate _site directory which contains the generated html files</li>
+<li>Run git commit to mark a new update to the content</li>
+<li>Push the latest commit to github</li>
+<li>Login to xiaosuidao serve and pull the latest update from github</li>
+</ol>
+<h1>Steps to set up remote server to only sync only _site directory</h1>
+<ol>
+<li><code>git clone &lt;repository_url&gt;</code></li>
+<li><code>cd &lt;repository_name&gt;</code></li>
+<li><code>git config core.sparsecheckout true</code></li>
+<li><code>echo &quot;_site&quot; &gt;&gt; .git/info/sparse-checkout</code></li>
+<li><code>git read-tree -m -u HEAD</code></li>
+</ol>

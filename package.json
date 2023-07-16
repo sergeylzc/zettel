@@ -11,7 +11,7 @@
     "sass:watch": "~/.bin/sass src/style/:_site/dist/style/ --no-source-map --update -w",
     "tailwind:watch": "npx tailwindcss -i src/style/tailwind.css -o _site/dist/style/tailwind.css --watch",
     "clean-output": "rm -rf _site",
-    "clean-input": "rm -rf digest muse misc index.liquid",
+    "clean-input": "rm -rf digest muse misc index.md resource",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
