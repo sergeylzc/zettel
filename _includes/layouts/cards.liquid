@@ -2,7 +2,9 @@
 layout: _html
 ---
 {%- for card in collections[collectionKey] -%}
-  {{ card.data.title }}
-  {{ card.url }}
-  {{ card.templateContent }}
+  <div>
+    {{ card.data.title }}
+    {{ card.templateContent }}
+    {{ card.url }}
+  </div>
 {%- endfor -%}

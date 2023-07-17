@@ -111,99 +111,185 @@
     </li>
 </ul></header>
       <div>
-        Seeing Like an Algorithm
-  /digest/area-social-community/article-seeing-like-an-algorithm/
-  <p>Intro</p>
-<p>For You Page algorithm is the connective tissue that makes TikTok work. It is the bus on its motherboard that connects and closes all its feedback loops</p>
-<p>If the algorithm wasn’t effective then the whole feedback loop would collapse</p>
-<p>TikTok's design in a lot of way helps its algorithm &quot;see&quot;</p>
-<p>I want to discuss how TikTok’s application design allows its algorithm to “see” all the detail it needs to perform its matchmaking job efficiently and accurately</p>
-<p>This post is about a new model for getting the most leverage from machine learning algorithms in the design of applications and services</p>
-<p>How does TikTok's algorithm work?</p>
-<p>The TikTok FYP algorithm is remarkably accurate and efficient at matching videos with those who will find them entertaining (and, just as importantly, at suppressing the distribution of videos to those who won’t find them entertaining)</p>
-<p>But how to train such a remarkably accurate and efficient algorithm?</p>
-<p>The effectiveness of a machine learning algorithm isn’t a function of the algorithm alone but of the algorithm after trained on some dataset</p>
-<p>One of the realizations in machine learning is just how much progress was possible just by increasing the volume of training data by several orders of magnitude</p>
-<p>For some domains, like text, good training data is readily available in large volumes. To train an AI model like GPT-3, you can turn to the vast corpus of text already available on the internet, in books, and so on</p>
-<p>But for TikTok (or Douyin, its Chinese clone), who needed an algorithm that would excel at recommending short videos to viewers, no such massive publicly available training dataset existed and even if you had such videos, where could you find comparable data on how the general population felt about such videos?</p>
-<p>The very types of video that TikTok’s algorithm needed to train on weren’t easy to create without the app’s camera tools and filters, licensed music clips, etc.</p>
-<p>The magic of the design of TikTok: it is a closed loop of feedback which inspires and enables the creation and viewing of videos on which its algorithm can be trained (For its algorithm to become as effective as it has, TikTok became its own source of training data.)</p>
-<p>TikTok's approach to design for creating a potent flywheel of learning</p>
-<p>The dominant school of thought on UI design in tech in the past two decades, has centered around removing friction for users in accomplishing whatever it is they’re trying to do while delighting them in the process. The goal has been design that is elegant, in every sense of the word: intuitive, ingenious, even stylish</p>
-<p>Apple has embodied this school of design than anyone else</p>
-<p>There’s a reason this user-centric design model has been so dominant for so long, especially in consumer tech. First, it works. Furthermore, we live in the era of massive network effects where tech giants who apply Ben Thompson’s aggregation theory and acquire a massive base of users can exert unbelievable leverage on the markets they participate in. One of the best ways to do that is to design products and services that do what users want better than your competitors</p>
-<p>But more and more, when considering how to design an app, you have to consider how best to help an algorithm “see.” To serve your users best, first serve the algorithm. In an age when machine learning is in its ascendancy, this is increasingly a critical design objective.</p>
-<p>TikTok is an example of a modern app whose design is optimized to feed its algorithm as much useful signal as possible. It is an exemplar of what I call algorithm-friendly design</p>
-<p>TikTok’s design makes its videos, users, and user preferences legible to its For You Page algorithm. The app design fulfills one of its primary responsibilities: “seeing like an algorithm.”</p>
-<p>How TikTok's design help the algorithm &quot;sees&quot;</p>
-<p>How TikTok's algorithm works:</p>
-<p>One video per screen and displayed fullscreen, in vertical orientation. Not a scrolling feed and paginated. Video autoplays almost immediately. This puts the users to an immediate question: how do you feel about this short video and this short video alone?</p>
-<p>Everything you do from the moment the video begins playing is signal as to your sentiment towards that video.</p>
-<p>Every video sent to you has already watched and added lots of relevant tags or labels by some human on TikTok's operations team. All of these labels become features that the algorithm can now see.</p>
-<p>The FYP algorithm takes every one of the actions you take on the video and can guess how you, with all your tastes, feels about this video, with all its attributes.</p>
-<p>Increasingly, the algorithm can also see what TikTok already knows about you</p>
-<p>What TikTok's FYP algorithm sees v.s. Recommendation algorithm from most other social networking feeds sees</p>
-<p>By relying on a long scrolling feed with mostly explicit positive feedback mechanisms, social networks like Facebook, Twitter, and Instagram have made a tradeoff in favor of lower friction scanning for users at the expense of a more accurate read on negative signal</p>
-<p>The default UI of our largest social networks today is the infinite vertically scrolling feed</p>
-<p>Display multiple items on screen at once</p>
-<p>As you scroll up and past many stories, the algorithm can't &quot;see&quot; which story your eyes rest on. It could guess but no pressing any of the feedback buttons like the Like button, their sentiment is not clear. Hence signal of user sentiment isn't clean</p>
-<p>Infinite scrolling feed is ideal from removing friction's point of view</p>
-<p>Bc infinite scrolling feed offers a sense of uninhibited control of the pace of consumption</p>
-<p>A paginated design, in which you could only see one story at a time, where each flick of the finger would only advance the feed one item at a time (fraction), would be a literal and metaphoric drag.</p>
-<p>For social networks that are built around social graph, usually they only provide positive feedback mechanisms, most typically some form of a like button</p>
-<p>TikTok doesn’t have an explicit downvote button, but by serving you just one video at a time, they can infer your lack of interest in any single video based on whether you churn out of that video quickly and by which positive actions you don’t take.</p>
-<p>Networks that are built around interest graphs, like Reddit, do tend to incorporate down voting mechanisms because their prime directive to keep users from churning is to serve them the most interesting content</p>
-<p>The switch from a chronological to algorithmic feed for a lot of social graph based social networks is often the default defensive move against drifting away from a user’s true interests because the mismatch between your own interests and those of people you know</p>
-<p>But if the algorithm isn’t &quot;seeing&quot; signals of a user’s growing disinterest, if only positive engagement is visible, some amount of divergence is unavoidable because precisely which stories are driving them away may be unclear</p>
-<p>Ref:<br>
-https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm</p>
-TikTok and the Sorting Hat
-  /digest/area-social-community/article-tiktok-and-the-sorting-hat/
-  <p>TikTok is an exception to my cultural determinist worldview</p>
-<p>My cultural determinist worldview</p>
-<p>Skeptical any of the new tech companies out of China would ever crack the U.S. market</p>
-<p>Not just because US had strong incumbents or the Chinese tech companies were still in their infancy</p>
-<p>Default hypothesis was that the veil of cultural ignorance was too impenetrable a barrier</p>
-<p>Non-WEIRD countries would struggle to ship into WEIRD cultures. Even more skeptical of US companies competing in China or India</p>
-<p>TikTok which designed by two guys in Shanghai is an exception. Why?</p>
-<p>It turns out that in some categories, a machine learning algorithm significantly responsive and accurate can pierce the veil of cultural ignorance. Today, sometimes culture can be abstracted.</p>
-<p>This has significant implications for the future of cross-border tech competition, as well as for understanding how product developers achieve product-market-fit</p>
-<p>Muscial.ly's success and invisible asymptote</p>
-<p>An app offered users the chance to lip synch to the official version of popular songs and have those videos distributed to an audience for social feedback</p>
-<p>The Musical.ly team listened to their early adopters. They received a ton of product requests, helping to inform a product roadmap. That combined with some clever growth hacks helped them achieve hockey-stick inflection among their target market</p>
-<p>Still, Musical.ly ran into its invisible asymptote eventually. There are only so many teenage girls in the U.S. When they saturated that market, usage and growth flatlined</p>
-<p>It was suddenly looked more attractive to sell the company to bytedance</p>
-<p>How Bytedance supercharge TikTok's growth</p>
-<p>The one-two combination of Bytedance’s enormous marketing spend and the power of TikTok’s algorithm came to the rescue</p>
-<p>To help a network break out from its early adopter group, you need both to bring lots of new people/subcultures into the app—that’s where the massive marketing spend helps—but also ways to help these disparate groups to 1) find each other quickly and 2) branch off into their own spaces</p>
-<p>Bytedance’s short video algorithm fulfilled these two requirements. In the two sided entertainment network that is TikTok, the algorithm acts as a rapid, efficient market maker, connecting videos with the audiences they’re destined to delight. The algorithm allows this to happen without an explicit follower graph</p>
-<p>The usual path for most other social networks to scale is to encourage their users to follow and friend each other to assemble their own graph one connection at a time. It's slow and has to provide some reason for people to hang around and build that graph. The trick usually is &quot;come for the tool, stay for the network&quot;</p>
-<p>One challenge to scale a social network is clashing of subcultures. The first generation of large social networks has proven mostly unprepared and ill-equipped to deal with the resulting culture wars. TikTok helped to keep these distinct subcultures, with their different tastes, separated. TikTok’s algorithm sorts its users into dozens and dozens of subcultures. Not two FYP feeds are alike</p>
-<p>Twitter's content moderation problems are largely the results from throwing liberals and conservatives together in a timeline together</p>
-<p>Another challenge within a larger social network, even subcultures need some minimum viable scale and Bytedance paid dearly to fill the top of the funnel, its algorithm eventually helped assemble many subcultures surpassing that minimum viable scale. More notably, it did so with amazing speed</p>
-<p>Some people still think that a new social network will be built around a new content format (a new proof of work), but just as critical is building the right structures to distribute such content to the right audience to close the social feedback loop</p>
-<p>What is TikTok comparing to other social networks? Why is it so powerful?</p>
-<p>Three purposes which I used to distinguish among networks: social capital (status), entertainment, and utility</p>
-<p>While almost all networks serve some mix of the three, most lean heavily towards one of those three purposes</p>
-<p>A network like Venmo or Uber is mostly about utility. A network like YouTube is more about entertainment. Some networks are more focused on social capital</p>
-<p>TikTok is less a pure social network, the type focused on social capital, than an entertainment network: It is trying to figure out what hundreds of millions of viewers around the world are interested in</p>
-<p>It consists of a network of people connected to each other, but they are connected for a distinct reason, for creators to reach viewers with their short videos</p>
-<p>An entertainment network is as an interest network: TikTok takes content from one group of people and match it to other people who would enjoy that content</p>
-<p>Drawbacks of the old way of building the interest graph</p>
-<p>The tradition way to build out an interest-based network using a social graph has always been a sort of approximation, a hack. You follow some people in an app, and it serves you some subset of the content from those people under the assumption that you’ll find much of what they post of interest to you</p>
-<p>The problem with approximating an interest graph with a social graph is that social graphs have negative network effects that kick in at scale</p>
-<p>Twitter: the one-way follow graph structure is well-suited to interest graph construction, but the problem is that you’re rarely interested in everything from any single person you follow</p>
-<p>Facebook: the bidirectional social graph eventually fills your newsfeed with a lot of noise from people you don't know, manifesting itself in the declining visit and posting frequency on Facebook across many cohorts</p>
-<p>Snapchat: struggles to differentiate between its utility as a way to communicate among friends and its entertainment function as a place famous people broadcast content to their fans</p>
-<p>There’s a reason that many people in the U.S. today describe social media as work. Apps like Facebook, Instagram, and Twitter are built on social graphs, and as such, they amplify the scale, ubiquity, and reach of our performative social burden. They struggle to separate their social functions from their entertainment and utility functions, injecting an aspect of social artifice where it never used to exist</p>
-<p>TikTok doesn’t bump into the negative network effects of using a social graph at scale because it doesn't really have one. It is more of a pure interest graph, one derived from its short video content, and the beauty is its algorithm is so efficient that its interest graph can be assembled without imposing much of a burden on the user at all. It is passive personalization, learning through consumption</p>
-<p>In a two-sided entertainment marketplace, they provide creators on one side with unmatched video creation tools coupled with potential super-scaled distribution, and viewers on the other side with an endless stream of entertainment that gets more personalized with time</p>
-<p>Potentials of TikTok</p>
-<p>Imagine an algorithm so clever it enables its builders to treat another market and culture as a complete black box. What do people in that country like? No, even better, what does each individual person in each of those foreign countries like? You don't have to figure it out. The algorithm will handle that. The algorithm knows</p>
-<p>Now imagine that level of hyper efficient interest matching applied to other opportunities and markets. Personalized TV of the future? Check. Education? I already find a lot of education videos in my TikTok feed, on everything from cooking to magic to iPhone hacks</p>
-<p>Ref:<br>
-https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat</p>
+        <div>
+    Seeing Like an Algorithm
+    <h3>Intro</h3>
+<ul>
+<li>For You Page algorithm is the connective tissue that makes TikTok work. It is the bus on its motherboard that connects and closes all its feedback loops
+<ul>
+<li>If the algorithm wasn’t effective then the whole feedback loop would collapse</li>
+</ul>
+</li>
+<li>TikTok's design in a lot of way helps its algorithm &quot;see&quot;</li>
+<li>I want to discuss how TikTok’s application design allows its algorithm to “see” all the detail it needs to perform its matchmaking job efficiently and accurately</li>
+<li>This post is about a new model for getting the most leverage from machine learning algorithms in the design of applications and services</li>
+</ul>
+<h3>How does TikTok's algorithm work?</h3>
+<ul>
+<li>The TikTok FYP algorithm is remarkably accurate and efficient at matching videos with those who will find them entertaining (and, just as importantly, at suppressing the distribution of videos to those who won’t find them entertaining)</li>
+<li>But how to train such a remarkably accurate and efficient algorithm?
+<ul>
+<li>The effectiveness of a machine learning algorithm isn’t a function of the algorithm alone but of the algorithm after trained on some dataset</li>
+<li>One of the realizations in machine learning is just how much progress was possible just by increasing the volume of training data by several orders of magnitude</li>
+<li>For some domains, like text, good training data is readily available in large volumes. To train an AI model like GPT-3, you can turn to the vast corpus of text already available on the internet, in books, and so on</li>
+<li>But for TikTok (or Douyin, its Chinese clone), who needed an algorithm that would excel at recommending short videos to viewers, no such massive publicly available training dataset existed and even if you had such videos, where could you find comparable data on how the general population felt about such videos?</li>
+<li>The very types of video that TikTok’s algorithm needed to train on weren’t easy to create without the app’s camera tools and filters, licensed music clips, etc.</li>
+</ul>
+</li>
+<li>The magic of the design of TikTok: it is a closed loop of feedback which inspires and enables the creation and viewing of videos on which its algorithm can be trained (<strong>For its algorithm to become as effective as it has, TikTok became its own source of training data</strong>.)</li>
+</ul>
+<h3>TikTok's approach to design for creating a potent flywheel of learning</h3>
+<ul>
+<li>The dominant school of thought on UI design in tech in the past two decades, has centered around removing friction for users in accomplishing whatever it is they’re trying to do while delighting them in the process. The goal has been design that is elegant, in every sense of the word: intuitive, ingenious, even stylish
+<ul>
+<li>Apple has embodied this school of design than anyone else</li>
+</ul>
+</li>
+<li>There’s a reason this user-centric design model has been so dominant for so long, especially in consumer tech. First, it works. Furthermore, we live in the era of massive network effects where tech giants who apply Ben Thompson’s aggregation theory and acquire a massive base of users can exert unbelievable leverage on the markets they participate in. One of the best ways to do that is to design products and services that do what users want better than your competitors</li>
+<li>But more and more, when considering how to design an app, you have to consider how best to help an algorithm “<strong>see</strong>.” To serve your users best, first serve the algorithm. In an age when machine learning is in its ascendancy, this is increasingly a critical design objective.</li>
+<li>TikTok is an example of a modern app whose design is optimized to feed its algorithm as much useful signal as possible. It is an exemplar of what I call <strong>algorithm-friendly design</strong></li>
+<li>TikTok’s design makes its videos, users, and user preferences legible to its For You Page algorithm. The app design fulfills one of its primary responsibilities: “seeing like an algorithm.”</li>
+</ul>
+<h3>How TikTok's design help the algorithm &quot;sees&quot;</h3>
+<ul>
+<li>How TikTok's algorithm works:
+<ul>
+<li>One video per screen and displayed fullscreen, in vertical orientation. Not a scrolling feed and paginated. Video autoplays almost immediately. This puts the users to an immediate question: how do you feel about this short video and this short video alone?</li>
+<li>Everything you do from the moment the video begins playing is signal as to your sentiment towards that video.
+<ul>
+<li>Every video sent to you has already watched and added lots of relevant tags or labels by some human on TikTok's operations team. All of these labels become features that the algorithm can now see.</li>
+</ul>
+</li>
+<li>The FYP algorithm takes every one of the actions you take on the video and can guess how you, with all your tastes, feels about this video, with all its attributes.</li>
+<li>Increasingly, the algorithm can also see what TikTok already knows about you</li>
+</ul>
+</li>
+<li>What TikTok's FYP algorithm sees v.s. Recommendation algorithm from most other social networking feeds sees
+<ul>
+<li>By relying on a long scrolling feed with mostly explicit positive feedback mechanisms, social networks like Facebook, Twitter, and Instagram have made a tradeoff in favor of lower friction scanning for users at the expense of a more accurate read on negative signal
+<ul>
+<li>The default UI of our largest social networks today is the infinite vertically scrolling feed</li>
+<li>Display multiple items on screen at once</li>
+<li>As you scroll up and past many stories, the algorithm can't &quot;see&quot; which story your eyes rest on. It could guess but no pressing any of the feedback buttons like the Like button, their sentiment is not clear. Hence signal of user sentiment isn't clean</li>
+<li>Infinite scrolling feed is ideal from removing friction's point of view
+<ul>
+<li>Bc infinite scrolling feed offers a sense of uninhibited control of the pace of consumption</li>
+<li>A paginated design, in which you could only see one story at a time, where each flick of the finger would only advance the feed one item at a time (fraction), would be a literal and metaphoric drag.</li>
+</ul>
+</li>
+<li>For social networks that are built around social graph, usually they only provide positive feedback mechanisms, most typically some form of a like button</li>
+</ul>
+</li>
+<li>TikTok doesn’t have an explicit downvote button, but by serving you just one video at a time, they can infer your lack of interest in any single video based on whether you churn out of that video quickly and by which positive actions you don’t take.
+<ul>
+<li>Networks that are built around interest graphs, like Reddit, do tend to incorporate down voting mechanisms because their prime directive to keep users from churning is to serve them the most interesting content</li>
+</ul>
+</li>
+<li>The switch from a chronological to algorithmic feed for a lot of social graph based social networks is often the default defensive move against drifting away from a user’s true interests because the mismatch between your own interests and those of people you know
+<ul>
+<li>But if the algorithm isn’t &quot;seeing&quot; signals of a user’s growing disinterest, if only positive engagement is visible, some amount of divergence is unavoidable because precisely which stories are driving them away may be unclear</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Reference</p>
+<ul>
+<li><a href="https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm">Seeing Like an Algorithm</a></li>
+</ul>
 
+    /digest/area-social-community/article-seeing-like-an-algorithm/
+  </div><div>
+    TikTok and the Sorting Hat
+    <h3>TikTok is an exception to my cultural determinist worldview</h3>
+<ul>
+<li>My cultural determinist worldview
+<ul>
+<li>Skeptical any of the new tech companies out of China would ever crack the U.S. market</li>
+<li>Not just because US had strong incumbents or the Chinese tech companies were still in their infancy</li>
+<li>Default hypothesis was that the veil of cultural ignorance was too impenetrable a barrier
+<ul>
+<li>Non-WEIRD countries would struggle to ship into WEIRD cultures. Even more skeptical of US companies competing in China or India</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>TikTok which designed by two guys in Shanghai is an exception. Why?
+<ul>
+<li>It turns out that in some categories, <strong>a machine learning algorithm significantly responsive and accurate can pierce the veil of cultural ignorance</strong>. Today, sometimes culture can be abstracted.</li>
+</ul>
+</li>
+<li>This has significant implications for the future of cross-border tech competition, as well as for understanding how product developers achieve product-market-fit</li>
+</ul>
+<h3>Muscial.ly's success and invisible asymptote</h3>
+<ul>
+<li>An app offered users the chance to lip synch to the official version of popular songs and have those videos distributed to an audience for <strong>social feedback</strong></li>
+<li>The Musical.ly team listened to their early adopters. They received a ton of product requests, helping to inform a product roadmap. That combined with some clever growth hacks helped them achieve hockey-stick inflection among their target market</li>
+<li>Still, Musical.ly ran into its invisible asymptote eventually. There are only so many teenage girls in the U.S. When they saturated that market, usage and growth flatlined</li>
+<li>It was suddenly looked more attractive to sell the company to bytedance</li>
+</ul>
+<h3>How Bytedance supercharge TikTok's growth</h3>
+<ul>
+<li>The one-two combination of Bytedance’s enormous marketing spend and the power of TikTok’s algorithm came to the rescue</li>
+<li>To help a network break out from its early adopter group, you need both to bring lots of new people/subcultures into the app—that’s where the massive marketing spend helps—but also ways to help these disparate groups to 1) find each other quickly and 2) branch off into their own spaces</li>
+<li>Bytedance’s short video algorithm fulfilled these two requirements. In the two sided entertainment network that is TikTok, the algorithm acts as a rapid, efficient market maker, connecting videos with the audiences they’re destined to delight. The algorithm allows this to happen <strong>without an explicit follower graph</strong>
+<ul>
+<li>The usual path for most other social networks to scale is to encourage their users to follow and friend each other to assemble their own graph one connection at a time. It's slow and has to provide some reason for people to hang around and build that graph. The trick usually is &quot;come for the tool, stay for the network&quot;</li>
+</ul>
+</li>
+<li>One challenge to scale a social network is clashing of subcultures. The first generation of large social networks has proven mostly unprepared and ill-equipped to deal with the resulting culture wars. TikTok helped to keep these distinct subcultures, with their different tastes, separated. TikTok’s algorithm sorts its users into dozens and dozens of subcultures. Not two FYP feeds are alike
+<ul>
+<li>Twitter's content moderation problems are largely the results from throwing liberals and conservatives together in a timeline together</li>
+</ul>
+</li>
+<li>Another challenge within a larger social network, even subcultures need some <strong>minimum viable scale</strong> and Bytedance paid dearly to fill the top of the funnel, <strong>its algorithm eventually helped assemble many subcultures surpassing that minimum viable scale. More notably, it did so with amazing speed</strong>
+<ul>
+<li>Some people still think that a new social network will be built around a new content format (a new proof of work), but just as critical is building the right structures to distribute such content to the right audience to close the social feedback loop</li>
+</ul>
+</li>
+</ul>
+<h3>What is TikTok comparing to other social networks? Why is it so powerful?</h3>
+<ul>
+<li>Three purposes which I used to distinguish among networks: social capital (status), entertainment, and utility
+<ul>
+<li>While almost all networks serve some mix of the three, most lean heavily towards one of those three purposes</li>
+<li>A network like Venmo or Uber is mostly about utility. A network like YouTube is more about entertainment. Some networks are more focused on social capital</li>
+</ul>
+</li>
+<li>TikTok is less a pure social network, the type focused on social capital, than an entertainment network: <strong>It is trying to figure out what hundreds of millions of viewers around the world are interested in</strong>
+<ul>
+<li>It consists of a network of people connected to each other, but they are connected for a distinct reason, for creators to reach viewers with their short videos</li>
+<li>An entertainment network is as an interest network: TikTok takes content from one group of people and match it to other people who would enjoy that content</li>
+</ul>
+</li>
+<li>Drawbacks of the old way of building the interest graph
+<ul>
+<li>The tradition way to build out an interest-based network using a social graph has always been a sort of approximation, a hack. You follow some people in an app, and it serves you some subset of the content from those people under the assumption that you’ll find much of what they post of interest to you</li>
+<li>The problem with approximating an interest graph with a social graph is that social graphs have negative network effects that kick in at scale
+<ul>
+<li>Twitter: the one-way follow graph structure is well-suited to interest graph construction, but the problem is that you’re rarely interested in everything from any single person you follow</li>
+<li>Facebook: the bidirectional social graph eventually fills your newsfeed with a lot of noise from people you don't know, manifesting itself in the declining visit and posting frequency on Facebook across many cohorts</li>
+<li>Snapchat: struggles to differentiate between its utility as a way to communicate among friends and its entertainment function as a place famous people broadcast content to their fans</li>
+<li>There’s a reason that many people in the U.S. today describe social media as work. Apps like Facebook, Instagram, and Twitter are built on social graphs, and as such, they amplify the scale, ubiquity, and reach of our performative social burden. They struggle to separate their social functions from their entertainment and utility functions, injecting an aspect of social artifice where it never used to exist</li>
+</ul>
+</li>
+<li>TikTok doesn’t bump into the negative network effects of using a social graph at scale because it doesn't really have one. It is more of a pure interest graph, one derived from its short video content, and the beauty is its algorithm is so efficient that its interest graph can be assembled without imposing much of a burden on the user at all. It is passive personalization, learning through consumption</li>
+<li>In a two-sided entertainment marketplace, they provide creators on one side with unmatched video creation tools coupled with potential super-scaled distribution, and viewers on the other side with an endless stream of entertainment that gets more personalized with time</li>
+</ul>
+</li>
+</ul>
+<h3>Potentials of TikTok</h3>
+<ul>
+<li>Imagine an algorithm so clever it enables its builders to treat another market and culture as a complete black box. What do people in that country like? No, even better, what does each individual person in each of those foreign countries like? You don't have to figure it out. The algorithm will handle that. The algorithm knows</li>
+<li>Now imagine that level of hyper efficient interest matching applied to other opportunities and markets. Personalized TV of the future? Check. Education? I already find a lot of education videos in my TikTok feed, on everything from cooking to magic to iPhone hacks</li>
+</ul>
+<p>Reference</p>
+<ul>
+<li><a href="https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat">TikTok and the Sorting Hat</a></li>
+</ul>
+
+    /digest/area-social-community/article-tiktok-and-the-sorting-hat/
+  </div>
       </div>
       <footer>
         This is site footer
