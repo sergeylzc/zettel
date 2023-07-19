@@ -2,9 +2,9 @@
 layout: _html
 ---
 {%- for card in collections[collectionKey] -%}
-  <div>
-    {{ card.data.title }}
+  <div class="card" id="{{ card.fileSlug }}">
+    <h1>{{ card.data.title }}</h1>
     {{ card.templateContent }}
-    {{ card.url }}
+    <a href="{{ card.url }}">查看更多</a>
   </div>
 {%- endfor -%}

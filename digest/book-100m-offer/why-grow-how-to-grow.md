@@ -13,5 +13,5 @@ tags: digest-book-100m-offer
   - Net profit: what's left over after all expenses are paid
   - Lifetime value: gross profit accrued over the entire lifetime of a customer
 
-  Reference
-  - [Book: $100M Offers: How To Make Offers So Good People Feel Stupid Saying No by Alex Hormozi](https://www.amazon.com/100M-Offers-People-Stupid-Saying-ebook/dp/B099QVG1H8)
+Reference
+- [Book: $100M Offers: How To Make Offers So Good People Feel Stupid Saying No by Alex Hormozi](https://www.amazon.com/100M-Offers-People-Stupid-Saying-ebook/dp/B099QVG1H8)

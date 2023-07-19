@@ -9,6 +9,18 @@ module.exports = (eleventyConfig) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
+  eleventyConfig.addFilter("getParentURL", (url) => {
+
+      let parts = url.split("/");
+
+      const hashId = parts[parts.length - 2];
+      const secondToLastIndex = parts.length - 2;
+
+      parts.splice(secondToLastIndex, 1);
+
+      return parts.join("/") + "#" + hashId;
+  });
+
   eleventyConfig.addPassthroughCopy("dist");
   // Copy `resource/` to `_site/resource`
   eleventyConfig.addPassthroughCopy("resource");
