@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: TikTok and the Sorting Hat
 tags: digest-area-social-community
 ---

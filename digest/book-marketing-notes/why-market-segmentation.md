@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 为什么要细分市场？
 tags: digest-book-marketing-notes
 ---

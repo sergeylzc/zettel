@@ -1,5 +1,5 @@
 ---
-layout: layouts/cards
+layout: layouts/card-list
 eleventyNavigation:
   key: muse-area-product-thinking
   title: Area -> 产品思维

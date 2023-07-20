@@ -1,5 +1,5 @@
 ---
-layout: _html
+layout: layouts/card-index
 tags: digest-entry
 eleventyNavigation:
   key: digest

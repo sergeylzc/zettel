@@ -1,5 +1,5 @@
 ---
-layout: layouts/cards
+layout: layouts/card-list
 eleventyNavigation:
   key: misc
   title: 🗃 Misc

@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 旧体验最小化
 tags: muse-area-product-thinking
 ---

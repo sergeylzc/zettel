@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: Why grow and how to grow
 tags: digest-book-100m-offer
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 所谓的平台红利期
 tags: muse-essay-emergent-layers
 ---

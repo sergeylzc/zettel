@@ -1,0 +1,19 @@
+---
+layout: _html
+---
+<header>
+  <h1>小隧道卡片盒</h1>
+  <div class="tag-tree">
+    {%- render "partials/nav", collectionsAll: collections.all, page: page -%}
+  </div>
+</header>
+<div>
+  {%- for card in collections[collectionKey] -%}
+    <div class="card" id="{{ card.fileSlug }}">
+      <h1>{{ card.data.title }}</h1>
+      {{ card.templateContent }}
+      <a href="{{ card.url }}">查看更多</a>
+    </div>
+  {%- endfor -%}
+</div>
+{%- render "partials/footer", page: page, siteMeta: siteMeta -%}

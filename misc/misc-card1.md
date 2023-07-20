@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: Title of the misc card1
 tags: misc
 ---

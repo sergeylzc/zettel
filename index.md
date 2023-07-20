@@ -1,5 +1,5 @@
 ---
-layout: _html
+layout: layouts/card-index
 eleventyNavigation:
   key: start-here
   title: 🎬 Start Here

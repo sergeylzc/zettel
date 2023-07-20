@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 做营销的五个步骤
 tags: digest-area-marketing
 ---

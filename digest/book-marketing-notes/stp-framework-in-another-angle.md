@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 理解STP另一个角度
 tags: digest-book-marketing-notes
 ---

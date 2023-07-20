@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: Seeing Like an Algorithm
 tags: digest-area-social-community
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: Psychological solutions are your opportunities
 tags: digest-book-100m-offer
 ---

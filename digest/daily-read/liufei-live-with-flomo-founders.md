@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 刘飞 / 少楠 / 白光的直播笔记
 tags: digest-daily-read
 ---

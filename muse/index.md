@@ -1,5 +1,5 @@
 ---
-layout: _html
+layout: layouts/card-index
 tags: muse-entry
 eleventyNavigation:
   key: muse

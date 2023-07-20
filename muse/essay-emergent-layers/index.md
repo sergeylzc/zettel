@@ -1,5 +1,5 @@
 ---
-layout: layouts/cards
+layout: layouts/card-list
 eleventyNavigation:
   key: muse-essay-emergent-layers
   title: Essay -> 科技叠层理论

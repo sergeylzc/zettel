@@ -1,5 +1,5 @@
 ---
-layout: layouts/cards
+layout: layouts/card-list
 eleventyNavigation:
   key: digest-book-100m-offer
   title: Book -> 100M Offer

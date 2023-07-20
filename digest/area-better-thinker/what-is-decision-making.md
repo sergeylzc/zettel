@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 何为决策？
 tags: digest-area-better-thinker
 ---

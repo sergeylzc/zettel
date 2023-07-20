@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 如何判断一个市场的有效性
 tags: digest-book-marketing-notes
 ---

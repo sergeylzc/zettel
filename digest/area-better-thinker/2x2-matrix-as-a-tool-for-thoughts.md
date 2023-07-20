@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 四象限思维工具
 tags: digest-area-better-thinker
 ---

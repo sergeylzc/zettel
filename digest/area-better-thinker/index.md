@@ -1,5 +1,5 @@
 ---
-layout: layouts/cards
+layout: layouts/card-list
 eleventyNavigation:
   key: digest-area-better-thinker
   title: Area -> Better Thinker

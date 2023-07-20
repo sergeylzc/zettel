@@ -1,5 +1,5 @@
 ---
-layout: layouts/card
+layout: layouts/card-view
 title: 企业如何获得竞争优势？
 tags: digest-book-marketing-notes
 ---
