@@ -3,7 +3,7 @@ layout: _html
 tags: muse-entry
 eleventyNavigation:
   key: muse
-  title: Muse
+  title: 💭 Muse
   order: 3
 title: Musing around my areas of interests
 ---

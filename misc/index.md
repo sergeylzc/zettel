@@ -2,7 +2,7 @@
 layout: layouts/cards
 eleventyNavigation:
   key: misc
-  title: Misc
+  title: 🗃 Misc
   order: 4
 eleventyComputed:
   collectionKey: misc

@@ -16,19 +16,27 @@
 {%- assign description = excerpt | default: siteMeta.desc -%}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ title }} - 小隧道卡片盒</title>
+
+{% if title == undefined or title == "" %}
+  <title>小隧道卡片盒</title>
+  <meta name="twitter:title" content="小隧道卡片盒">
+  <meta property="og:title" content="小隧道卡片盒">
+{% else %}
+  <title>{{ title }} - 小隧道卡片盒</title>
+  <meta name="twitter:title" content="{{ title }} - 小隧道卡片盒">
+  <meta property="og:title" content="{{ title }} - 小隧道卡片盒">
+{% endif %}
+
+
 <meta name="description" content="{{ description }}">
+<meta name="twitter:description" content="{{ description }}">
 
 <meta property="og:locale" content="zh_cn">
 <meta property="og:site_name" content="小隧道卡片盒">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ title }} - 小隧道卡片盒">
-
 <meta name="twitter:card" content="summary">
 <meta name="twitter:domain" content="小隧道卡片盒">
 <meta name="twitter:site" content="@sergeylzc">
-<meta name="twitter:title" content="{{ title }} - 小隧道卡片盒">
-<meta name="twitter:description" content="{{ description }}">
 
 {%- if canonical_link -%}
   <link rel="canonical" href="{{canonical_link}}" />

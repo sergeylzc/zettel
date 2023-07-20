@@ -15,7 +15,6 @@ module.exports = (eleventyConfig) => {
 
       const hashId = parts[parts.length - 2];
       const secondToLastIndex = parts.length - 2;
-
       parts.splice(secondToLastIndex, 1);
 
       return parts.join("/") + "#" + hashId;

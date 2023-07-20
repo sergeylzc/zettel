@@ -2,7 +2,7 @@
 layout: _html
 eleventyNavigation:
   key: start-here
-  title: Start Here
+  title: 🎬 Start Here
   order: 1
 permalink: "/"
 ---
