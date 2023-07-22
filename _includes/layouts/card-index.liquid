@@ -1,13 +1,12 @@
 ---
 layout: _html
 ---
-<header>
-  <h1>小隧道卡片盒</h1>
-  <div class="tag-tree">
-    {%- render "partials/nav", collectionsAll: collections.all, page: page -%}
+{%- render "partials/header", collectionsAll: collections.all, page: page -%}
+<main class="container max-w-screen-xl mx-auto px-4">
+  <div class="aside-nav hidden fixed lg:block">
+    {%- render "partials/aside-nav", collectionsAll: collections.all, page: page -%}
   </div>
-</header>
-<div>
-  {{ content }}
-</div>
-{%- render "partials/footer", page: page, siteMeta: siteMeta -%}
+  <div class="card-list lg:pl-[19.5rem]">
+    {{ content }}
+  </div>
+</main>

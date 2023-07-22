@@ -1,6 +1,6 @@
-{% assign navPages = collectionsAll | eleventyNavigation %}
+{% assign asideNav = collectionsAll | eleventyNavigation %}
 <ul>
-  {%- for entry in navPages %}
+  {%- for entry in asideNav %}
     <li {% if entry.url == page.url %}class="active"{% endif %}>
       <a href="{{ entry.url }}">{{ entry.title }}</a>
       {% if entry.children %}

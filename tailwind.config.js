@@ -4,11 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bglight': '#f7f7f7',
-        'logodark': '#444444',
-        'logoblack': '#222222',
-        'navgray': '#999999',
-        'linkred': '#cc4533'
+        
       },
     },
   },

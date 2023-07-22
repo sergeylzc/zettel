@@ -33,15 +33,51 @@
 <meta name="twitter:domain" content="小隧道卡片盒">
 <meta name="twitter:site" content="@sergeylzc"><link
       rel="stylesheet"
-      href=""
+      href="/dist/style/tailwind.css"
       type="text/css"
       media="all">
+    <link rel="stylesheet" href="/dist/style/app.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-  <body id="top">
-    <main>
-      <header>
-  <h1>小隧道卡片盒</h1>
-  <div class="tag-tree">
+  <body class="antialiased">
+    <header x-data="{ open: false }" class="sticky top-0 z-40 w-full border-b bg-white border-slate-900/10">
+  <div class="container max-w-screen-xl mx-auto px-4 relative">
+    <div class="identity py-4 text-center lg:text-left">
+      <h1>
+        <a href="/">小隧道卡片盒</a>
+      </h1>
+    </div>
+    <div @click="open = ! open" class="m-aside-nav-menu absolute top-0 lg:hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"><path
+          fill="currentColor"
+          fill-rule="evenodd"
+          d="M20.75 7a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75Zm0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75Zm0 5a.75.75 0 0 1-.75.75H4a.75.75 0 0 1 0-1.5h16a.75.75 0 0 1 .75.75Z"
+          clip-rule="evenodd" /></svg>
+    </div>
+  </div>
+  <div
+    x-cloak
+    x-show="open"
+    class="m-aside-nav fixed top-0 bottom-0 left-0 bg-slate-50 z-50 px-4 py-8">
+    <div
+      @click="open = false"
+      @click.outside="open = false"
+      class="close-m-aside-nav">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24">
+        <g fill="currentColor"><path d="M10.03 8.97a.75.75 0 0 0-1.06 1.06L10.94 12l-1.97 1.97a.75.75 0 1 0 1.06 1.06L12 13.06l1.97 1.97a.75.75 0 0 0 1.06-1.06L13.06 12l1.97-1.97a.75.75 0 1 0-1.06-1.06L12 10.94l-1.97-1.97Z" /><path
+            fill-rule="evenodd"
+            d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25ZM2.75 12a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0Z"
+            clip-rule="evenodd" /></g>
+      </svg>
+    </div>
 <ul>
     <li >
       <a href="/">🎬 Start Here</a>
@@ -116,10 +152,85 @@
       
     </li>
 </ul></div>
-</header>
-<div><div class="card" id="how-to-determine-market-effectiveness">
-      <h1>如何判断一个市场的有效性</h1>
-      <ul>
+</header><main class="container max-w-screen-xl mx-auto px-4">
+  <div class="aside-nav hidden fixed lg:block">
+<ul>
+    <li >
+      <a href="/">🎬 Start Here</a>
+      
+        
+      
+    </li>
+    <li >
+      <a href="/digest/">📚 Digest</a>
+      
+        
+          <ul>
+            <li >
+              <a href="/digest/area-better-thinker/">Area -> Better Thinker</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li >
+              <a href="/digest/area-marketing/">Area -> Marketing</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li >
+              <a href="/digest/area-social-community/">Area -> Social & Community</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li >
+              <a href="/digest/book-100m-offer/">Book -> 100M Offer</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li class="active">
+              <a href="/digest/book-marketing-notes/">Book -> 营销笔记</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li >
+              <a href="/digest/daily-read/">Daily Read</a>
+            </li>
+          </ul>
+        
+      
+    </li>
+    <li >
+      <a href="/muse/">💭 Muse</a>
+      
+        
+          <ul>
+            <li >
+              <a href="/muse/area-product/">Area -> 产品思维</a>
+            </li>
+          </ul>
+        
+          <ul>
+            <li >
+              <a href="/muse/essay-emergent-layers/">Essay -> 科技叠层理论</a>
+            </li>
+          </ul>
+        
+      
+    </li>
+    <li >
+      <a href="/misc/">🗃 Misc</a>
+      
+        
+      
+    </li>
+</ul></div>
+  <div class="card-list lg:pl-[19.5rem]"><div class="card" id="how-to-determine-market-effectiveness">
+        <h2>如何判断一个市场的有效性</h2>
+        <ul>
 <li>可识别性与可衡量性，实际上就是是否人群画像是否具体</li>
 <li>市场容量，市场体量大不大，市场是在萎缩还是在增长</li>
 <li>可接近性，是否可以通过渠道建设或广告宣传触达这个群体</li>
@@ -130,10 +241,10 @@
 <li><a href="https://yd.qq.com/web/bookDetail/0fd322c0813ab705bg019599">营销笔记</a></li>
 </ul>
 
-      <a href="/digest/book-marketing-notes/how-to-determine-market-effectiveness/">查看更多</a>
-    </div><div class="card" id="how-to-gain-competive-advantage">
-      <h1>企业如何获得竞争优势？</h1>
-      <ul>
+        <a href="/digest/book-marketing-notes/how-to-determine-market-effectiveness/">查看更多</a>
+      </div><div class="card" id="how-to-gain-competive-advantage">
+        <h2>企业如何获得竞争优势？</h2>
+        <ul>
 <li>企业经营成功的本质是因为获得了某种竞争优势</li>
 <li>进行市场细分只是企业的一个决策，而这个决策并不能保证企业成功</li>
 <li>保证企业成功的关键是企业针对这种市场细分、围绕这种市场细分采取的一系列特殊经营活动</li>
@@ -144,10 +255,10 @@
 <li><a href="https://yd.qq.com/web/bookDetail/0fd322c0813ab705bg019599">营销笔记</a></li>
 </ul>
 
-      <a href="/digest/book-marketing-notes/how-to-gain-competive-advantage/">查看更多</a>
-    </div><div class="card" id="stp-framework-in-another-angle">
-      <h1>理解STP另一个角度</h1>
-      <ul>
+        <a href="/digest/book-marketing-notes/how-to-gain-competive-advantage/">查看更多</a>
+      </div><div class="card" id="stp-framework-in-another-angle">
+        <h2>理解STP另一个角度</h2>
+        <ul>
 <li>按照不同维度拆分市场后，看看哪个细分市场还有机会，然后重点投入这个细分市场，这就形成了「目标市场」</li>
 <li>然后长期耕耘这个「目标市场」，通过一系列特有的经营活动，为该市场的顾客匹配合适的供给，进一步形成了「市场定位」</li>
 </ul>
@@ -156,10 +267,10 @@
 <li><a href="https://yd.qq.com/web/bookDetail/0fd322c0813ab705bg019599">营销笔记</a></li>
 </ul>
 
-      <a href="/digest/book-marketing-notes/stp-framework-in-another-angle/">查看更多</a>
-    </div><div class="card" id="why-market-segmentation">
-      <h1>为什么要细分市场？</h1>
-      <ul>
+        <a href="/digest/book-marketing-notes/stp-framework-in-another-angle/">查看更多</a>
+      </div><div class="card" id="why-market-segmentation">
+        <h2>为什么要细分市场？</h2>
+        <ul>
 <li>选择细分市场本身不能获得竞争优势，但设计业务时还是要进行细分且选择一个细分市场</li>
 <li>因为你一开始不可能做所有人的生意，也没机会做所有人的生意</li>
 <li>但选择一个细分市场并不意味着你就一直做这个市场，只是切入点需要是一个细分市场</li>
@@ -170,10 +281,8 @@
 <li><a href="https://yd.qq.com/web/bookDetail/0fd322c0813ab705bg019599">营销笔记</a></li>
 </ul>
 
-      <a href="/digest/book-marketing-notes/why-market-segmentation/">查看更多</a>
-    </div></div><footer>
-  This is site footer
-</footer>
-    </main>
+        <a href="/digest/book-marketing-notes/why-market-segmentation/">查看更多</a>
+      </div></div>
+</main>
   </body>
 </html>

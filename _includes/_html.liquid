@@ -4,13 +4,13 @@
     {%- render "partials/head", page: page, siteMeta: siteMeta, title: title, excerpt: excerpt -%}
     <link
       rel="stylesheet"
-      href=""
+      href="/dist/style/tailwind.css"
       type="text/css"
       media="all">
+    <link rel="stylesheet" href="/dist/style/app.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-  <body id="top">
-    <main>
-      {{ content }}
-    </main>
+  <body class="antialiased">
+    {{ content }}
   </body>
 </html>
