@@ -9,7 +9,7 @@ layout: _html
   <div class="card-list lg:pl-[19.5rem]">
     {%- for card in collections[collectionKey] -%}
       <div class="card">
-        <div class="card-content">
+        <div class="card-content prose">
           <a class="block relative invisible -top-16" id="{{ card.fileSlug }}"></a>
           <h2>
             <a class="hover:underline underline-offset-2" href="#{{ card.fileSlug }}">
