@@ -33,4 +33,4 @@ tags: digest-area-better-thinker
   - 寻找是为谋，筛选是为断
 
 References
-- [谋与断](https://mp.weixin.qq.com/s/hRWKVtq8XmgeLEOfm-BCDA)
+- <a href="https://mp.weixin.qq.com/s/hRWKVtq8XmgeLEOfm-BCDA" target="_blank">谋与断</a>

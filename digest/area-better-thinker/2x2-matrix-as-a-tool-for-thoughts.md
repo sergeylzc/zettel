@@ -17,4 +17,4 @@ tags: digest-area-better-thinker
   - etc
 
 References
-- [多看一个维度](https://mp.weixin.qq.com/s/hnPDDFhrYDLY-vkTcWFG3Q)
+- <a href="https://mp.weixin.qq.com/s/hnPDDFhrYDLY-vkTcWFG3Q" target="_blank">多看一个维度</a>
