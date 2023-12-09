@@ -1,0 +1,17 @@
+---
+layout: _html
+---
+{%- render "partials/header", collectionsAll: collections.all, page: page -%}
+<div id="notesContainer">
+  <div class="note" data-note-url="{{ page.url }}">
+    <div class="noteWrapper">
+      <div class="content markdown-body">
+        <h2>{{ title }}</h2>
+        {{ content }}
+      </div>
+      <div class="metaInfo">
+        <time class="updatedAt">Updated: {{ page.date | postDate }}</time>
+      </div>
+    </div>
+  </div>
+</div>

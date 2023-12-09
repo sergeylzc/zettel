@@ -1,0 +1,28 @@
+---
+layout: _html
+---
+{%- render "partials/header", collectionsAll: collections.all, page: page -%}
+<div id="notesListContainer">
+  <div id="notesHeader" class="markdown-body">
+      <div id="notesListHeaderWrapper">
+          <span class="icon"></span>
+          <h1>{{ page.url | cleanTag }}</h1>
+      </div>
+  </div>
+  <div id="notesList">
+    {%- for card in collections[collectionKey] -%}
+      <div class="note" data-note-url="{{ card.url }}">
+          <div class="noteWrapper">
+              <div class="content markdown-body">
+                <h2>{{ card.data.title }}</h2>
+                {{ card.templateContent }}
+              </div>
+              <div class="metaInfo">
+                  <a class="noteId" href="{{ card.url }}" target="_blank">Permanent Link</a> ·
+                  <time class="updatedAt">Updated: {{ card.date | postDate }}</time>
+              </div>
+          </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

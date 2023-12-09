@@ -1,0 +1,13 @@
+---
+layout: _html
+---
+{%- render "partials/header", collectionsAll: collections.all, page: page -%}
+<div id="notesContainer">
+  <div class="note" data-note-url="{{ page.url }}">
+    <div class="noteWrapper">
+      <div class="content markdown-body">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

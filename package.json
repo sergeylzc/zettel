@@ -1,0 +1,32 @@
+{
+    "name": "littletunnel.com",
+    "version": "0.0.1",
+    "description": "littletunnel website",
+    "main": "index.html",
+    "scripts": {
+      "clean": "rm -rf ./_site",
+      "eleventy": "npx @11ty/eleventy",
+      "eleventy:watch": "npx @11ty/eleventy --watch",
+      "tailwind": "npx tailwindcss -i ./static/css/style.css -o ./static/css/dist.css",
+      "tailwind:watch": "npx tailwindcss -i ./static/css/style.css -o ./static/css/dist.css --watch",
+      "server": "live-server --open=./_site",
+      "build": "npm run clean && npm run eleventy && npm run tailwind",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "",
+      "url": ""
+    },
+    "author": "Sergey Li",
+    "license": "MIT",
+    "devDependencies": {
+      "tailwindcss": "^3.3.5",
+      "@11ty/eleventy": "^1.0.2",
+      "@11ty/eleventy-navigation": "^0.3.5",
+      "concurrently": "^7.6.0"
+    },
+    "dependencies": {
+      "luxon": "^3.2.1"
+    }
+  }
+  

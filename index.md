@@ -1,0 +1,30 @@
+---
+layout: layouts/tagindex
+permalink: "/"
+---
+### [Writings](/writing/)
+* <a href="/writing/why-procrastination/" data-note-url="/writing/why-procrastination/">我们为什么会拖延？</a>
+* <a href="/writing/beat-procrastination/" data-note-url="/writing/beat-procrastination/">如何改掉「拖延症」？</a>
+* <a href="/writing/live-with-anxiety/" data-note-url="/writing/live-with-anxiety/">学会与焦躁的意识相处</a>
+* <a href="/writing/cockroach-mentality/" data-note-url="/writing/cockroach-mentality/">做一只打不死的小强</a>
+* <a href="/writing/startup-success-first-rule-do-not-die/" data-note-url="/writing/startup-success-first-rule-do-not-die/">创业正确的心态：避免死亡</a>
+* <a href="/writing/emergent-layer-1/" data-note-url="/writing/emergent-layer-1/">科技叠层理论I：何为科技行业</a>
+* <a href="/writing/marketing-thoughts/" data-note-url="/writing/marketing-thoughts/">产品营销的一些感悟</a>
+* <a href="/writing/making-mistakes/" data-note-url="/writing/making-mistakes/">如何理解犯错和失败</a>
+* <a href="/writing/mental-pain-is-not-real/" data-note-url="/writing/mental-pain-is-not-real/">很多痛苦只是存在于想象中</a>
+* <a href="/writing/thinking-in-differentiation/" data-note-url="/writing/thinking-in-differentiation/">如何思考差异化</a>
+* <a href="/writing/some-thoughts-on-picking-market/" data-note-url="/writing/some-thoughts-on-picking-market/">关于如何选择市场的思考</a>
+* <a href="/writing/increase-product-value/" data-note-url="/writing/increase-product-value/">如何提高产品价值</a>
+* <a href="/writing/how-to-create-luck/" data-note-url="/writing/how-to-create-luck/">如何创造好运</a>
+
+### [Notes](/notes/)
+* <a href="/digest/">digest</a>
+  * <a href="/digest/area-better-thinker/">area-better-thinker</a>
+  * <a href="/digest/area-marketing/">area-marketing</a>
+  * <a href="/digest/area-social-community/">area-social-product</a>
+  * <a href="/digest/book-100m-offer/">book-100m-offer</a>
+  * <a href="/digest/book-marketing-notes/">book-营销笔记</a>
+  * <a href="/digest/daily-read/">daily-read</a>
+* <a href="/muse/">muse</a>
+  * <a href="/muse/area-product/">Area/产品思维</a>
+  * <a href="/muse/essay-emergent-layers/">essay-emergent-layers</a>

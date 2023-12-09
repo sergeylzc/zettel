@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    {%- render "partials/head", page: page, siteMeta: siteMeta, title: title, excerpt: excerpt -%}
+    <link rel="stylesheet" href="/static/css/dist.css">
+  </head>
+  <body>
+    {{ content }}
+  </body>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/tippy-bundle.umd.min.js"></script>
+  <script src="/static/js/script.js"></script>
+</html>

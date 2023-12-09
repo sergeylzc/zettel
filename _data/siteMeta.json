@@ -1,0 +1,11 @@
+{
+    "desc": "This is site desc.",
+    "url": "http://www.littletunnel.com",
+    "author": {
+      "name": "Sergey",
+      "email": "sergey@anywherearc.com",
+      "twitter": "https://twitter.com/sergeylzc",
+      "github": "https://github.com/sergeylzc"
+    },
+    "feedUrl": ""
+}
