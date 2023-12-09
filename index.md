@@ -2,7 +2,12 @@
 layout: layouts/tagindex
 permalink: "/"
 ---
-### [Writings](/writing/)
+# Welcome to my corner of the internet
+
+## About me
+I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly interested in technology, business, building product and how to live a better life.
+
+## Writings
 * <a href="/writing/why-procrastination/" data-note-url="/writing/why-procrastination/">我们为什么会拖延？</a>
 * <a href="/writing/beat-procrastination/" data-note-url="/writing/beat-procrastination/">如何改掉「拖延症」？</a>
 * <a href="/writing/live-with-anxiety/" data-note-url="/writing/live-with-anxiety/">学会与焦躁的意识相处</a>
@@ -17,14 +22,23 @@ permalink: "/"
 * <a href="/writing/increase-product-value/" data-note-url="/writing/increase-product-value/">如何提高产品价值</a>
 * <a href="/writing/how-to-create-luck/" data-note-url="/writing/how-to-create-luck/">如何创造好运</a>
 
-### [Notes](/notes/)
-* <a href="/digest/">digest</a>
-  * <a href="/digest/area-better-thinker/">area-better-thinker</a>
-  * <a href="/digest/area-marketing/">area-marketing</a>
-  * <a href="/digest/area-social-community/">area-social-product</a>
-  * <a href="/digest/book-100m-offer/">book-100m-offer</a>
-  * <a href="/digest/book-marketing-notes/">book-营销笔记</a>
-  * <a href="/digest/daily-read/">daily-read</a>
-* <a href="/muse/">muse</a>
-  * <a href="/muse/area-product/">Area/产品思维</a>
-  * <a href="/muse/essay-emergent-layers/">essay-emergent-layers</a>
+## Notes
+* <a href="/digest/" data-note-url="/digest/">digest</a>
+  * <a href="/digest/area-better-thinker/" data-note-url="/digest/area-better-thinker/">area-better-thinker</a>
+  * <a href="/digest/area-marketing/" data-note-url="/digest/area-marketing/">area-marketing</a>
+  * <a href="/digest/area-social-product/" data-note-url="/digest/area-social-product/">area-social-product</a>
+  * <a href="/digest/book-100m-offer/" data-note-url="/digest/book-100m-offer/">book-100m-offer</a>
+  * <a href="/digest/book-marketing-notes/" data-note-url="/digest/book-marketing-notes/">book-营销笔记</a>
+  * <a href="/digest/daily-read/" data-note-url="/digest/daily-read/">daily-read</a>
+* <a href="/muse/" data-note-url="/muse/">muse</a>
+  * <a href="/muse/area-product/" data-note-url="/muse/area-product/">Area/产品思维</a>
+  * <a href="/muse/essay-emergent-layers/" data-note-url="/muse/essay-emergent-layers/">essay-emergent-layers</a>
+
+## What am I up to these days?
+Work at [Anywhere Arc](https://anywherearc.com) making well-crafted software products
+
+## Elsewhere
+* X/Twitter: [@sergeylzc](https://twitter.com/sergeylzc)
+
+## Colophon
+This site is written, edited and published with [Slippod](https://slippod.com).

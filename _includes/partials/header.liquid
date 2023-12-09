@@ -1,20 +1,6 @@
-<header id="header">
-  <h1>LittleTunnel</h1>
-  {% assign tagtree = collectionsAll | eleventyNavigation %}
-  <ul class="hidden">
-    {%- for entry in tagtree %}
-      <li {% if entry.url == page.url %}class="active"{% endif %}>
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-        {% if entry.children %}
-          {% for subEntry in entry.children %}
-            <ul>
-              <li {% if subEntry.url == page.url %}class="active"{% endif %}>
-                <a href="{{ subEntry.url }}">{{ subEntry.title }}</a>
-              </li>
-            </ul>
-          {% endfor %}
-        {% endif %}
-      </li>
-    {%- endfor %}
-  </ul>
+<header>
+  <div id="brand">
+    <span class="logo"></span>
+    <span class="name">LittleTunnel</span>
+  </div>
 </header>

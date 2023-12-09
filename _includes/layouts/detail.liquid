@@ -6,10 +6,11 @@ layout: _html
   <div class="note" data-note-url="{{ page.url }}">
     <div class="noteWrapper">
       <div class="content markdown-body">
-        <h2>{{ title }}</h2>
+        <h1>{{ title }}</h1>
         {{ content }}
       </div>
       <div class="metaInfo">
+        <a class="noteURL" href="{{ page.url }}" target="_blank">Permanent Link</a> ·
         <time class="updatedAt">Updated: {{ page.date | postDate }}</time>
       </div>
     </div>

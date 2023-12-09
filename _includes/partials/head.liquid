@@ -1,35 +1,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
+<link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
 {%- assign description = excerpt | default: siteMeta.desc -%}
 {% if title == undefined or title == "" %}
-  <title>LittleTunnel</title>
-  <meta name="twitter:title" content="LittleTunnel">
-  <meta property="og:title" content="LittleTunnel">
+<title>LittleTunnel</title>
+<meta name="twitter:title" content="LittleTunnel">
+<meta property="og:title" content="LittleTunnel">
 {% else %}
-  <title>{{ title }} - LittleTunnel</title>
-  <meta name="twitter:title" content="{{ title }} - LittleTunnel">
-  <meta property="og:title" content="{{ title }} - LittleTunnel">
+<title>{{ title }} - LittleTunnel</title>
+<meta name="twitter:title" content="{{ title }} - LittleTunnel">
+<meta property="og:title" content="{{ title }} - LittleTunnel">
 {% endif %}
-
 <meta name="description" content="{{ description }}">
 <meta name="twitter:description" content="{{ description }}">
-
 <meta property="og:locale" content="zh_cn">
 <meta property="og:site_name" content="LittleTunnel">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:domain" content="LittleTunnel">
 <meta name="twitter:site" content="@sergeylzc">
-
 {%- if canonical_link -%}
-  <link rel="canonical" href="{{canonical_link}}" />
+<link rel="canonical" href="{{canonical_link}}" />
 {%- endif -%}
-
 {%- if featured_img -%}
-  <meta property="og:image" content="{{ featured_img }}">
-  <meta name="twitter:image" content="{{ featured_img }}">
+<meta property="og:image" content="{{ featured_img }}">
+<meta name="twitter:image" content="{{ featured_img }}">
 {%- endif -%}

@@ -16,7 +16,7 @@ body {
     background-color: #F5F6F8;
 }
 
-#header {
+header {
     border-bottom: 1px solid #dadada;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -30,15 +30,48 @@ body {
     z-index: 10;
 }
 
-#header h1 {
+header #brand {
     margin: 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5rem;
     margin-right: 1rem;
 }
 
+header .logo {
+    @apply mr-1;
+    mask: url("/static/img/littletunnel-logo.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    display: inline-block;
+    width: 25.87px;
+    height: 32px;
+    background-color: #000000;
+    vertical-align: sub;
+}
+
+header .name {
+    line-height: 2rem;
+}
+
 #notesListContainer {
     padding-top: 3.35rem;
+}
+
+#notesList .noteItem {
+    flex-shrink: 0;
+    padding: 1rem;
+    border-right: 1px solid rgba(0,0,0,0.05);
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    position: sticky;
+    left: 0;
+    overflow-y: auto;
+    transition: box-shadow 100ms linear, opacity 75ms linear, transform 200ms cubic-bezier(0.19, 1, 0.22, 1);
+    border-radius: 0.25rem;
+}
+
+#notesList .noteItem:not(:last-of-type) {
+    margin-bottom: 1rem;
 }
 
 #notesContainer {
@@ -47,15 +80,11 @@ body {
     overflow-y: hidden;
     height: 100vh;
     box-sizing: border-box;
-    padding-top: 3.35rem;
+    padding-top: 3.8125rem;
 }
 
 #notesListHeaderWrapper {
     box-sizing: border-box;
-    width: 620px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-right: 1px solid rgba(0,0,0,0.05);
 }
 
 #notesHeader .icon {
@@ -70,10 +99,15 @@ body {
 
 #notesHeader h1 {
     display: inline-block;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 2rem;
 }
 
 .note {
-    width: 620px;
+    width: 640px;
     flex-shrink: 0;
     padding: 1rem;
     border-right: 1px solid rgba(0,0,0,0.05);
@@ -205,7 +239,7 @@ body {
     padding: 16px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 640px) {
     #notesContainer {
         overflow-y: auto;
         height: auto;

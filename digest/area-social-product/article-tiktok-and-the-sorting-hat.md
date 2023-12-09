@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: TikTok and the Sorting Hat
-tags: digest-area-social-community
+tags: digest-area-social-product
 ---
 ### TikTok is an exception to my cultural determinist worldview
 - My cultural determinist worldview
