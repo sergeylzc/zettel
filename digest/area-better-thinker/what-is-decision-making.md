@@ -32,7 +32,5 @@ tags: digest-area-better-thinker
   - 所以，要持续寻找和筛选 ROI 高的事情
   - 寻找是为谋，筛选是为断
 
-<a href="/digest/area-better-thinker/2x2-matrix-as-a-tool-for-thoughts" data-note-url="/digest/area-better-thinker/2x2-matrix-as-a-tool-for-thoughts">Link to /digest/area-better-thinker/2x2-matrix-as-a-tool-for-thoughts</a>
-
 References
 - <a href="https://mp.weixin.qq.com/s/hRWKVtq8XmgeLEOfm-BCDA" target="_blank">谋与断</a>
