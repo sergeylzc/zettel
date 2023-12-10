@@ -8,6 +8,7 @@ permalink: "/"
 I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly interested in technology, business, building product and how to live a better life.
 
 ## Writings
+* <a href="/writing/social-network-for-knowledge-workers/" data-note-url="/writing/social-network-for-knowledge-workers/">Social Network for Knowledge Workers</a>
 * <a href="/writing/why-procrastination/" data-note-url="/writing/why-procrastination/">我们为什么会拖延？</a>
 * <a href="/writing/beat-procrastination/" data-note-url="/writing/beat-procrastination/">如何改掉「拖延症」？</a>
 * <a href="/writing/live-with-anxiety/" data-note-url="/writing/live-with-anxiety/">学会与焦躁的意识相处</a>
