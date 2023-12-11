@@ -11,6 +11,7 @@
       "tailwind:watch": "npx tailwindcss -i ./static/css/style.css -o ./static/css/dist.css --watch",
       "server": "live-server --open=./_site",
       "build": "npm run clean && npm run eleventy && npm run tailwind",
+      "copy": "cp -r ./_site/ ~/Documents/anywherearc/projects/www.littletunnel.com/",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
