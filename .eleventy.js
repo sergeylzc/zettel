@@ -2,11 +2,14 @@ const markdownIt = require("markdown-it");
 const eleventyNavPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
 const env = require('dotenv').config();
+const inspect = require("util").inspect;
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addGlobalData("env", process.env);
 
   eleventyConfig.addPlugin(eleventyNavPlugin);
+
+  eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
