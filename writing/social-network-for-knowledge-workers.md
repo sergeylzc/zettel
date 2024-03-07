@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: Social Network for Knowledge Workers
 tags: writing
+date: 2024-02-12
 ---
 When it comes to understanding or discussing social products, I align myself with the Social Capital theory camp. This theory is heavily discussed by [Julian Lehr](https://julian.digital/2020/03/28/signaling-as-a-service/) and [Eugene Wei](https://www.eugenewei.com/blog/2019/2/19/status-as-a-service). To further understand this concept, Tim Urban's metaphorical representation of how the human mind works can be helpful, as outlined in his article [Religion for the Nonreligious](https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html).
 

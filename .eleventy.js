@@ -12,7 +12,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    return DateTime.fromJSDate(dateObj).toISODate();
   });
 
   eleventyConfig.addFilter("cleanTag", (url) => {

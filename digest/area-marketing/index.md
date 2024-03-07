@@ -7,4 +7,5 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: digest-area-marketing
 title: Digest/Area-Marketing
+date: 2024-02-12
 ---

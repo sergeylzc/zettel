@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 产品营销的一些感悟
 tags: writing
+date: 2024-02-12
 ---
 要做好一个业务，其中一个关键环节是做好营销。毕竟，再好的产品，无人知晓也是不行的。
 

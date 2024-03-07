@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 四象限思维工具
 tags: digest-area-better-thinker
+date: 2024-02-12
 ---
 - 出发点
   - 世界本是复杂、多维的，但人却不太擅长进行多维度思考

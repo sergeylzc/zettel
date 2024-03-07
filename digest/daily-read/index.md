@@ -7,4 +7,5 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: digest-daily-read
 title: Digest/Daily Read
+date: 2024-02-12
 ---

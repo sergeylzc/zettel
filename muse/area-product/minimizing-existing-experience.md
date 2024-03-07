@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 旧体验最小化
 tags: muse-area-product-thinking
+date: 2024-02-12
 ---
 * 旧体验是别人的产品，我们无法改变
 * 唯一能做的，就是选择在特定情景下的用户和选择用户的参考系

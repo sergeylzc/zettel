@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 如何理解犯错和失败
 tags: writing
+date: 2024-02-12
 ---
 以下三段话改变了我对犯错和失败的看法。
 

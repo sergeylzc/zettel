@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: Seeing Like an Algorithm
 tags: digest-area-social-product
+date: 2024-02-12
 ---
 ### Intro
 - For You Page algorithm is the connective tissue that makes TikTok work. It is the bus on its motherboard that connects and closes all its feedback loops

@@ -7,5 +7,6 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: writing
 title: Writing - LittleTunnel
+date: 2024-02-12
 ---
 ### Writings

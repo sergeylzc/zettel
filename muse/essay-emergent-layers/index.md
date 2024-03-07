@@ -7,5 +7,6 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: muse-essay-emergent-layers
 title: Essay -> 科技叠层理论
+date: 2024-02-12
 ---
 This is entry page for muse-essay-emergent-layers.

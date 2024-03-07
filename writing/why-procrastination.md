@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 我们为什么会拖延？
 tags: writing
+date: 2024-02-12
 ---
 ### 前言
 

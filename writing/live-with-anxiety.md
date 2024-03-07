@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 学会与焦躁的意识相处
 tags: writing
+date: 2024-02-12
 ---
 今天我们继续探讨如何避免创业公司的「死亡」。Paul Graham 给出的另一个建议是避免士气低迷的状态。
 

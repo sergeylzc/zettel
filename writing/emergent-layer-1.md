@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 科技叠层理论 I：何为科技行业
 tags: writing
+date: 2024-02-12
 ---
 ## 前言
 

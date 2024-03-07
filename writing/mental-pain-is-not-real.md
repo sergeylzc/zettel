@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 很多痛苦只是存在于想象中
 tags: writing
+date: 2024-02-12
 ---
 你是否有以下这些经历？
 

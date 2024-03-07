@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 关于如何选择市场的思考
 tags: writing
+date: 2024-02-12
 ---
 一个业务要可持续运转，该业务必须能产生正向的现金流，也就是赚钱。
 

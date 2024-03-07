@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 何为决策？
 tags: digest-area-better-thinker
+date: 2024-02-12
 ---
 - 决策是全部的思考工作，除了执行，一切皆决策
 - 决策是为谋与断

@@ -6,5 +6,6 @@ eleventyNavigation:
   title: digest
   order: 2
 title: Day-to-day consumption of my areas of interest
+date: 2024-02-12
 ---
 This is digest page.

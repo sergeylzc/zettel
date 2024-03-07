@@ -7,4 +7,5 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: digest-book-100m-offer
 title: Digest/Book-100M Offer
+date: 2024-02-12
 ---

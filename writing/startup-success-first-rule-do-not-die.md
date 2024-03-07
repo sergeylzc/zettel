@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 创业正确的心态：避免死亡
 tags: writing
+date: 2024-02-12
 ---
 在上一期中，我们分享了 Paul Graham 的建议：面对创业的不确定性，最重要的是要活下去。本期，我们将分享一个该建议的实践案例。
 

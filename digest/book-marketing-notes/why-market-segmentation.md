@@ -2,6 +2,7 @@
 layout: layouts/detail
 title: 为什么要细分市场？
 tags: digest-book-marketing-notes
+date: 2024-02-12
 ---
 - 选择细分市场本身不能获得竞争优势，但设计业务时还是要进行细分且选择一个细分市场
 - 因为你一开始不可能做所有人的生意，也没机会做所有人的生意

@@ -7,4 +7,5 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: digest-area-better-thinker
 title: Digest/Area-Better Thinker
+date: 2024-02-12
 ---

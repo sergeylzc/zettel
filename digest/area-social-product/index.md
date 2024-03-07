@@ -7,4 +7,5 @@ eleventyNavigation:
 eleventyComputed:
   collectionKey: digest-area-social-product
 title: Digest/Area-Social Product
+date: 2024-02-12
 ---
