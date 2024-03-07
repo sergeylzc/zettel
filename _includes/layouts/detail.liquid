@@ -10,7 +10,7 @@ layout: _html
         {{ content }}
       </div>
       <div class="metaInfo">
-        <a class="noteURL" href="{{ page.url }}" target="_blank">Permanent Link</a> ·
+        <a class="noteURL" href="{{ "https://www.littletunnel.com" | append: page.url }}" target="_blank">Permanent Link</a> ·
         <time class="updatedAt">Updated: {{ page.date | postDate }}</time>
       </div>
     </div>
