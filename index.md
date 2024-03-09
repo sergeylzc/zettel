@@ -8,6 +8,7 @@ date: 2024-03-09
 ## Notes
 * <a href="https://www.littletunnel.com/area/" data-note-url="/area/">Areas I'm studying</a>
   * <a href="https://www.littletunnel.com/area/better-thinker/" data-note-url="/area/better-thinker/">Be a better thinker</a>
+  * <a href="https://www.littletunnel.com/area/mental-models-to-startup-building/" data-note-url="/area/mental-models-to-startup-building/">Mental models to startup building</a>
   * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">Ways to find niche opportunities</a>
   * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">Go-to-Market playbooks</a>
   * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
