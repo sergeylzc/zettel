@@ -11,7 +11,7 @@ layout: _html
       </div>
     </div>
     <div id="notesList">
-      {%- for card in collections[collectionKey] -%}
+      {%- for card in collections[collectionKey] reversed -%}
         <div class="noteItem" id="{{ card.data.page.fileSlug }}">
             <div class="noteWrapper">
                 <div class="content markdown-body">
