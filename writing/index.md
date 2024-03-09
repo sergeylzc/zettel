@@ -2,11 +2,13 @@
 layout: layouts/list
 eleventyNavigation:
   key: writing
-  title: writing
+  title: Writings
   order: 4
 eleventyComputed:
   collectionKey: writing
-title: Writing - LittleTunnel
+title: My Writings
 date: 2024-02-12
 ---
-### Writings
+### My Writings
+
+More to come

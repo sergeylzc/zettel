@@ -1,12 +1,21 @@
 ---
 layout: layouts/tagindex
 permalink: "/"
-date: 2024-02-12
+date: 2024-03-09
 ---
-# Welcome to my corner of the internet
+# 👋 I'm Sergey. Welcome to my corner of the internet.
 
-## About me
-I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly interested in technology, business, building product and how to live a better life.
+## Notes
+* <a href="https://www.littletunnel.com/area/" data-note-url="/area/">Areas I'm studying</a>
+  * <a href="https://www.littletunnel.com/area/better-thinker/" data-note-url="/area/better-thinker/">Be a better thinker</a>
+  * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">Ways to find niche opportunities</a>
+  * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">Go-to-Market playbooks</a>
+  * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
+* <a href="https://www.littletunnel.com/read/" data-note-url="/read/">What I've read</a>
+  * <a href="https://www.littletunnel.com/read/100m-offer/" data-note-url="/read/book-100m-offer/">$100M Offers: How To Make Offers So Good People Feel Stupid Saying No</a>
+  * <a href="https://www.littletunnel.com/read/essay-emergent-layers/" data-note-url="/read/essay-emergent-layers/">Emergent Layers by Alex Danco</a>
+* <a href="https://www.littletunnel.com/musing/" data-note-url="/musing/">Musings</a>
+  * <a href="https://www.littletunnel.com/musing/building-products-people-want/" data-note-url="/musing/building-products-people-want/">Building products people want</a>
 
 ## Writings
 * <a href="https://www.littletunnel.com/writing/social-network-for-knowledge-workers/" data-note-url="/writing/social-network-for-knowledge-workers/">Social Network for Knowledge Workers</a>
@@ -23,18 +32,6 @@ I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly i
 * <a href="https://www.littletunnel.com/writing/some-thoughts-on-picking-market/" data-note-url="/writing/some-thoughts-on-picking-market/">关于如何选择市场的思考</a>
 * <a href="https://www.littletunnel.com/writing/increase-product-value/" data-note-url="/writing/increase-product-value/">如何提高产品价值</a>
 * <a href="https://www.littletunnel.com/writing/how-to-create-luck/" data-note-url="/writing/how-to-create-luck/">如何创造好运</a>
-
-## Notes
-* <a href="https://www.littletunnel.com/digest/" data-note-url="/digest/">digest</a>
-  * <a href="https://www.littletunnel.com/digest/area-better-thinker/" data-note-url="/digest/area-better-thinker/">area-better-thinker</a>
-  * <a href="https://www.littletunnel.com/digest/area-marketing/" data-note-url="/digest/area-marketing/">area-marketing</a>
-  * <a href="https://www.littletunnel.com/digest/area-social-product/" data-note-url="/digest/area-social-product/">area-social-product</a>
-  * <a href="https://www.littletunnel.com/digest/book-100m-offer/" data-note-url="/digest/book-100m-offer/">book-100m-offer</a>
-  * <a href="https://www.littletunnel.com/digest/book-marketing-notes/" data-note-url="/digest/book-marketing-notes/">book-营销笔记</a>
-  * <a href="https://www.littletunnel.com/digest/daily-read/" data-note-url="/digest/daily-read/">daily-read</a>
-* <a href="https://www.littletunnel.com/muse/" data-note-url="/muse/">muse</a>
-  * <a href="https://www.littletunnel.com/muse/area-product/" data-note-url="/muse/area-product/">Area/产品思维</a>
-  * <a href="https://www.littletunnel.com/muse/essay-emergent-layers/" data-note-url="/muse/essay-emergent-layers/">essay-emergent-layers</a>
 
 ## What am I up to these days?
 Work at [Anywhere Arc](https://anywherearc.com) making well-crafted software products
