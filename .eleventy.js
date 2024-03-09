@@ -39,7 +39,9 @@ module.exports = (eleventyConfig) => {
 
   // Copy `static/` to `_site/static`
   eleventyConfig.addPassthroughCopy("static");
+  // Copy root level static files
   eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("404.html");
 
   const options = {
     html: true,
