@@ -7,7 +7,7 @@ layout: _html
     <div id="notesHeader">
       <div id="notesListHeaderWrapper">
           <span class="icon"></span>
-          <h1>{{ page.url | cleanTag }}</h1>
+          <h1>{{ title }}</h1>
       </div>
     </div>
     <div id="notesList">
@@ -15,7 +15,7 @@ layout: _html
         <div class="noteItem" id="{{ card.data.page.fileSlug }}">
             <div class="noteWrapper">
                 <div class="content markdown-body">
-                  <h1>{{ card.data.title }}</h1>
+                  <h2>{{ card.data.title }}</h2>
                   {{ card.templateContent }}
                 </div>
                 <div class="metaInfo">
