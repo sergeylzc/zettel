@@ -15,9 +15,9 @@ layout: _html
             <div class="noteWrapper">
                 <div class="content markdown-body">
                   <h2>
-                    {{ card.data.title }}
+                    <a href="{{ env.SERVER_DOMAIN | append: card.url }}">{{ card.data.title }}</a>
                   </h2>
-                  {{ card.templateContent }}
+                  {{ card.data.description }}
                 </div>
                 <div class="metaInfo">
                     <a class="noteURL" href="{{ env.SERVER_DOMAIN | append: card.url }}" target="_blank">Permanent Link</a> ·
