@@ -290,3 +290,5 @@ function toggleElementShown(element) {
 function toggleElementHidden(element){
     element.classList.add('hidden')
 }
+
+console.log("release: 2024-03-10 11:39");
