@@ -1,6 +1,6 @@
 ---
 layout: layouts/detail
-title: 科技叠层理论 I：何为科技行业
+title: 科技叠层理论第一篇：何为科技行业
 description: 科技行业发展的规律是什么
 tags: writing
 date: 2024-02-12

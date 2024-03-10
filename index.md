@@ -21,7 +21,7 @@ date: 2024-03-09
 ## Writings
 * <a href="https://www.littletunnel.com/writing/social-network-for-knowledge-workers/" data-note-url="/writing/social-network-for-knowledge-workers/">Social Network for Knowledge Workers</a>
 * <a href="https://www.littletunnel.com/writing/why-procrastination/" data-note-url="/writing/why-procrastination/">我们为什么会拖延？</a>
-* <a href="https://www.littletunnel.com/writing/beat-procrastination/" data-note-url="/writing/beat-procrastination/">如何改掉「拖延症」？</a>
+* <a href="https://www.littletunnel.com/writing/beat-procrastination/" data-note-url="/writing/beat-procrastination/">如何改掉拖延症？</a>
 * <a href="https://www.littletunnel.com/writing/live-with-anxiety/" data-note-url="/writing/live-with-anxiety/">学会与焦躁的意识相处</a>
 * <a href="https://www.littletunnel.com/writing/cockroach-mentality/" data-note-url="/writing/cockroach-mentality/">做一只打不死的小强</a>
 * <a href="https://www.littletunnel.com/writing/startup-success-first-rule-do-not-die/" data-note-url="/writing/startup-success-first-rule-do-not-die/">创业正确的心态：避免死亡</a>
