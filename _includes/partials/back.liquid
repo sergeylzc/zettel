@@ -1,7 +1,7 @@
 <header class="sticky top-0 z-40 w-full border-b bg-white border-slate-900/10">
   <div class="px-4 py-4">
     {%- assign prevPage = page.url | getParentURL -%}
-    <a class="flex items-center" href="{{ "https://www.littletunnel.com" | append: prevPage }}">
+    <a class="flex items-center" href="{{ env.SERVER_DOMAIN | append: prevPage }}">
       <span>返回</span>
     </a>
   </div>
