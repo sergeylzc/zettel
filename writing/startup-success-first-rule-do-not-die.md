@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 创业正确的心态：避免死亡
+description: 
 tags: writing
 date: 2024-02-12
 ---

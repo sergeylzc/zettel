@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 学会与焦躁的意识相处
+description: 「你往往听不到思绪的敲门，它们会悄无声息地出现在房子里。作为主人，你不需要用把门关紧来驱赶它们，只需不要沏茶款待它们。」
 tags: writing
 date: 2024-02-12
 ---

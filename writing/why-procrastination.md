@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 我们为什么会拖延？
+description: 对拖延症最佳的解释
 tags: writing
 date: 2024-02-12
 ---

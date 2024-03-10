@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 关于如何选择市场的思考
+description: 
 tags: writing
 date: 2024-02-12
 ---

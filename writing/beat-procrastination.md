@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 如何改掉「拖延症」？
+description: 自律往往并不能解决拖延的问题，关键在于日拱一卒
 tags: writing
 date: 2024-02-12
 ---

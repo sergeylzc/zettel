@@ -1,5 +1,5 @@
 ---
-layout: layouts/list
+layout: layouts/stack-list
 eleventyNavigation:
   key: writing
   title: Writings

@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 如何创造好运
+description: 好运的发生概率是可以通过人为控制提高的
 tags: writing
 date: 2024-02-12
 ---

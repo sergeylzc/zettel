@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 很多痛苦只是存在于想象中
+description: 著名斯多葛派哲学家塞内卡曾说过：「我们遭受的痛苦更多来自想象，而非现实。」
 tags: writing
 date: 2024-02-12
 ---

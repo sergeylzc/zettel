@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 做一只打不死的小强
+description: 只要不下台桌就不算失败，就有翻身的希望
 tags: writing
 date: 2024-02-12
 ---

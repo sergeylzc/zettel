@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: 如何理解犯错和失败
+description: 「人生的成功归结于如何控制自己的犯错。你掌控犯错的方式是犯更多的错误，这有点反直觉。」
 tags: writing
 date: 2024-02-12
 ---

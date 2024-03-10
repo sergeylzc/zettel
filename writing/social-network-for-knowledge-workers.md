@@ -1,6 +1,7 @@
 ---
 layout: layouts/detail
 title: Social Network for Knowledge Workers
+description: 
 tags: writing
 date: 2024-02-12
 ---

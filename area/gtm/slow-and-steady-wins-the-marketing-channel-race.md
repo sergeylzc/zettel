@@ -11,7 +11,6 @@ date: 2024-03-09
 * Need tons of cycles to get everything right to build a marketing channel
 
 ## Narrow Your Focus and Set Your Goals Realistically
-* Team is bombarded with too many demands, dilutes effectiveness
 * To master a marketing channel, **work on one at a time**
   1. Choose one marketing channel
   2. Choose one campaign or campaign type within that channel
