@@ -1,6 +1,10 @@
 <header>
   <div id="brand">
-    <a href={{ env.SERVER_ENV }}><span class="logo"></span></a>
-    <a href={{ env.SERVER_ENV }}><span class="name">LittleTunnel</span></a>
+    <a href="{{ env.SERVER_ENV | append: "/" }}">
+      <span class="logo"></span>
+      </a>
+    <a href="{{ env.SERVER_ENV | append: "/" }}">
+      <span class="name">LittleTunnel</span>
+    </a>
   </div>
 </header>

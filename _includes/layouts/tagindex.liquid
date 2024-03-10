@@ -1,7 +1,7 @@
 ---
 layout: _html
 ---
-{%- render "partials/header", collectionsAll: collections.all, page: page -%}
+{%- render "partials/header", collectionsAll: collections.all, page: page, env: env -%}
 <div id="notesContainer">
   <div class="note" data-note-url="{{ page.url }}">
     <div class="noteWrapper">
