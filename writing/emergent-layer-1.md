@@ -33,15 +33,15 @@ ChatGPT 及其背后的大模型技术的发展正迅速推动科技行业的期
 
 Alex Danco 现供职于 Shopify，专注于整合区块链钱包工作。他撰写了一系列文章，包括 [Emergent Layers](https://medium.com/@alexdanco/emergent-layers-an-introduction-f91c3cbe0175)、[Understanding Abundance](https://medium.com/social-capital/paradigm-shift-machine-part-1-technology-increases-access-to-what-is-scarce-1ed5cbc82537)、[Paradigm Shift Machine](https://medium.com/social-capital/understanding-abundance-introduction-346dcc5280dd)，分析科技行业发展的规律。他总结的思考框架对于培养敏感度、感知科技行业变化、理解行业巨变背后的因果关系很有帮助。在经历如人工智能等巨变时，提供了更好的思维模型作为讨论的基础。
 
-这个版本是我阅读 Alex 上述系列文章后根据个人理解撰写的，我称之为「科技叠层理论」。
+这个版本是我阅读文章后根据个人理解撰写的，我称之为「科技叠层理论」。
 
 本系列文章共五篇：
 
-- 科技叠层理论 I：何为科技行业
-- 科技叠层理论 II：爆发式需求
-- 科技叠层理论 III：爆发式增长
-- 科技叠层理论 IV：科技行业赚钱的关键
-- 科技叠层理论 V：赢家通常效应
+- 科技叠层理论第一篇：何为科技行业
+- 科技叠层理论第二篇：爆发式需求
+- 科技叠层理论第三篇：爆发式增长
+- 科技叠层理论第四篇：科技行业赚钱的关键
+- 科技叠层理论第五篇：赢家通常效应
 
 本期分享的是第一篇。
 

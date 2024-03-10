@@ -15,12 +15,12 @@ layout: _html
             <div class="noteWrapper">
                 <div class="content markdown-body">
                   <h2>
-                    <a href="{{ env.SERVER_DOMAIN | append: card.url }}">{{ card.data.title }}</a>
+                    <a href="{{ env.SERVER_ENV | append: card.url }}">{{ card.data.title }}</a>
                   </h2>
                   {{ card.data.description }}
                 </div>
                 <div class="metaInfo">
-                    <a class="noteURL" href="{{ env.SERVER_DOMAIN | append: card.url }}" target="_blank">Permanent Link</a> ·
+                    <a class="noteURL" href="{{ env.SERVER_ENV | append: card.url }}" target="_blank">Permanent Link</a> ·
                     <time class="updatedAt">Updated: {{ card.date | postDate }}</time>
                 </div>
             </div>
