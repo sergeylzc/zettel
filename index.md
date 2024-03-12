@@ -12,6 +12,7 @@ date: 2024-03-09
   * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">Ways to find niche opportunities</a>
   * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">Go-to-Market playbooks</a>
   * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
+  * <a href="https://www.littletunnel.com/area/mental-models-to-understanding-tech/" data-note-url="/area/mental-models-to-understanding-tech/">Mental Models to Understanding Tech Industry</a>
 * <a href="https://www.littletunnel.com/read/" data-note-url="/read/">What I've read</a>
   * <a href="https://www.littletunnel.com/read/book-100m-offer/" data-note-url="/read/book-100m-offer/">$100M Offers: How To Make Offers So Good People Feel Stupid Saying No</a>
   * <a href="https://www.littletunnel.com/read/essay-emergent-layers/" data-note-url="/read/essay-emergent-layers/">Emergent Layers by Alex Danco</a>
