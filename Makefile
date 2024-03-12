@@ -5,7 +5,7 @@ CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
 PUBLISH_DIRS := area musing read writing index.md
 
-.PHONY: clean_content copy_content build_content publish check_redun remove_redun
+.PHONY: clean_content copy_content build_site generate commit_changes
 
 clean_content:
 	@echo "🔨 Cleaning existing content..."
@@ -19,7 +19,7 @@ copy_content:
 	@echo "✅ Loaded content"
 	@echo ""
 
-build_content:
+build_site:
 	@echo "📢 Start building site..."
 	@echo ""
 	@echo "🔨 Removing _site..."
@@ -36,10 +36,17 @@ build_content:
 	@echo ""
 	@echo "🎉 Done building site"
 
-publish: clean_content copy_content build_content
+generate: clean_content copy_content build_site 
 
-check_redun:
-	find . -name .DS_Store -print0 | xargs -0 | grep "./_site/"
+commit_changes:
+	@echo "🔨 Committing changes..."
+	git add .
+	git commit -m "Update site content - $(shell date "+%Y-%m-%d %H:%M:%S")"
+	@echo "✅ Committed changes"
+	@echo ""
 
-remove_redun:
-	find . -name .DS_Store -print0 | xargs -0 | grep -v "_site" | rm
+publish:
+	@echo "🔨 Pushing to GitHub..."
+	git push origin master
+	@echo "✅ Pushed to GitHub"
+	@echo ""
