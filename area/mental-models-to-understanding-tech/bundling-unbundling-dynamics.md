@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 一条产业链的发展其实就是不断的bundling和unbundling的过程
-tags: area-mental-models-to-startup-building
+tags: area-mental-models-to-understanding-tech
 date: 2024-03-12
 ---
 * 商业社会是基于人的需求发展起来的
