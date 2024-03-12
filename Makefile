@@ -5,19 +5,38 @@ CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
 PUBLISH_DIRS := area musing read writing index.md
 
-.PHONY: clean copy
+.PHONY: clean_content copy_content build_content publish check_redun remove_redun
 
 clean_content:
-	@echo "clean published content..."
+	@echo "🔨 Cleaning existing content..."
 	@$(foreach dir,$(PUBLISH_DIRS),rm -rf $(ZETTEL_DIR)/$(dir);)
+	@echo "✅ Cleaned existing content"
+	@echo ""
 
 copy_content:
-	@echo "Copying files from working_content to zettel site generator directory..."
+	@echo "🔨 Loading content..."
 	@cp -r $(CONTENT_DIR)/* $(ZETTEL_DIR)/
+	@echo "✅ Loaded content"
+	@echo ""
 
-# Default target to do both tasks
-all_content: clean_content copy_content
+build_content:
+	@echo "📢 Start building site..."
+	@echo ""
+	@echo "🔨 Removing _site..."
+	rm -rf ./_site
+	@echo "✅ Removed _site"
+	@echo ""
+	@echo "🔨 Processing tailwindcss..."
+	npx tailwindcss -i ./static/css/style.css -o ./static/css/dist.css
+	@echo "✅ Processed tailwindcss"
+	@echo ""
+	@echo "🔨 Generating _site..."
+	npx @11ty/eleventy
+	@echo "✅ Generated _site"
+	@echo ""
+	@echo "🎉 Done building site"
 
+publish: clean_content copy_content build_content
 
 check_redun:
 	find . -name .DS_Store -print0 | xargs -0 | grep "./_site/"

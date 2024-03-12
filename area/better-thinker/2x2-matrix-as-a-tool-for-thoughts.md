@@ -17,5 +17,7 @@ date: 2024-02-12
   - 员工考察：意愿和能力
   - etc
 
-References
+---
+
+Ref:
 - <a href="https://mp.weixin.qq.com/s/hnPDDFhrYDLY-vkTcWFG3Q" target="_blank">多看一个维度</a>
