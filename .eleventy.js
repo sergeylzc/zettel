@@ -8,7 +8,6 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addGlobalData("env", process.env);
 
   eleventyConfig.addPlugin(eleventyNavPlugin);
-
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
