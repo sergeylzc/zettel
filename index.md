@@ -26,7 +26,7 @@ date: 2024-03-09
 * <a href="https://www.littletunnel.com/writing/live-with-anxiety/" data-note-url="/writing/live-with-anxiety/">学会与焦躁的意识相处</a>
 * <a href="https://www.littletunnel.com/writing/cockroach-mentality/" data-note-url="/writing/cockroach-mentality/">做一只打不死的小强</a>
 * <a href="https://www.littletunnel.com/writing/startup-success-first-rule-do-not-die/" data-note-url="/writing/startup-success-first-rule-do-not-die/">创业正确的心态：避免死亡</a>
-* <a href="https://www.littletunnel.com/writing/emergent-layer-1/" data-note-url="/writing/emergent-layer-1/">科技叠层理论I：何为科技行业</a>
+* <a href="https://www.littletunnel.com/writing/emergent-layer-1/" data-note-url="/writing/emergent-layer-1/">科技叠层理论第一篇：何为科技行业</a>
 * <a href="https://www.littletunnel.com/writing/marketing-thoughts/" data-note-url="/writing/marketing-thoughts/">产品营销的一些感悟</a>
 * <a href="https://www.littletunnel.com/writing/making-mistakes/" data-note-url="/writing/making-mistakes/">如何理解犯错和失败</a>
 * <a href="https://www.littletunnel.com/writing/mental-pain-is-not-real/" data-note-url="/writing/mental-pain-is-not-real/">很多痛苦只是存在于想象中</a>
