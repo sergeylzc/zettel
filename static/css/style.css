@@ -106,6 +106,10 @@ header .name {
     font-size: 2rem;
 }
 
+#notesHeader .listDesc {
+    @apply mx-4 mb-4;
+}
+
 .note {
     width: 640px;
     flex-shrink: 0;
