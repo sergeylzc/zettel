@@ -49,7 +49,7 @@ module.exports = (eleventyConfig) => {
   };
   eleventyConfig.setLibrary("md", markdownIt(options));
 
-  return {  
+  return {
     htmlTemplateEngine: "liquid",
     input: "source"
   };
