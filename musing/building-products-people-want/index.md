@@ -9,6 +9,3 @@ eleventyComputed:
 title: Musings on how to build products people want
 date: 2024-02-12
 ---
-# Musings on how to build products people want
-
-More to come

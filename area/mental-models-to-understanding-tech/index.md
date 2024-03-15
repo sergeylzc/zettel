@@ -9,6 +9,3 @@ eleventyComputed:
 title: Mental Models to Understanding Tech Industry
 date: 2024-03-09
 ---
-# Mental Models to Understanding Tech Industry
-
-More to come

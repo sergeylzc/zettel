@@ -9,6 +9,3 @@ eleventyComputed:
 title: Mental Models to Startup Building
 date: 2024-03-09
 ---
-# Mental Models to Startup Building
-
-More to come

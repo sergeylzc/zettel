@@ -9,6 +9,3 @@ eleventyComputed:
 title: Notes on Emergent Layers
 date: 2024-02-12
 ---
-# Notes on Emergent Layers
-
-More to come

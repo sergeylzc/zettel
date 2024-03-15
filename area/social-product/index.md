@@ -9,6 +9,3 @@ eleventyComputed:
 title: Building successful social products
 date: 2024-02-12
 ---
-# Building successful social products
-
-More to come
