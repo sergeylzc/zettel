@@ -5,7 +5,7 @@ CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
 PUBLISH_DIRS := area musing read writing index.md
 
-.PHONY: clean_content copy_content build_site generate commit_changes
+.PHONY: clean_content copy_content load_content build_site generate commit_changes
 
 clean_content:
 	@echo "🔨 Cleaning existing content..."
@@ -18,6 +18,8 @@ copy_content:
 	@cp -r $(CONTENT_DIR)/* $(ZETTEL_DIR)/
 	@echo "✅ Loaded content"
 	@echo ""
+
+load_content: clean_content copy_content
 
 build_site:
 	@echo "📢 Start building site..."
