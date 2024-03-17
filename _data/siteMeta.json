@@ -1,11 +1,18 @@
 {
+    "title": "littleTunnel",
     "desc": "I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly interested in technology, business, building product and how to live a better life.",
     "url": "https://www.littletunnel.com",
     "author": {
       "name": "Sergey",
-      "email": "sergey@anywherearc.com",
+      "email": "xiaoape@gmail.com",
       "twitter": "https://twitter.com/sergeylzc",
       "github": "https://github.com/sergeylzc"
     },
-    "feedUrl": ""
+    "feed": {
+      "subtitle": "I'm Sergey. This is my home for sharing my thoughts in different forms. Mostly interested in technology, business, building product and how to live a better life.",
+      "filename": "feed.xml",
+      "path": "/feed/feed.xml",
+      "url": "https://www.littletunnel.com/feed/feed.xml",
+      "id": "https://www.littletunnel.com/"
+    }
 }

@@ -13,18 +13,18 @@ layout: _html
       </div>
     </div>
     <div id="notesList">
-      {%- for card in collections[collectionKey] reversed -%}
-        <div class="noteItem" id="{{ card.data.page.fileSlug }}">
+      {%- for post in collections[collectionKey] reversed -%}
+        <div class="noteItem" id="{{ post.data.page.fileSlug }}">
             <div class="noteWrapper">
                 <div class="content markdown-body">
                   <h2>
-                    {{ card.data.title }}
+                    {{ post.data.title }}
                   </h2>
-                  {{ card.templateContent }}
+                  {{ post.templateContent }}
                 </div>
                 <div class="metaInfo">
-                    <a class="noteURL" href="{{ env.SERVER_ENV | append: card.url }}" target="_blank">Permanent Link</a> ·
-                    <time class="updatedAt">Updated: {{ card.date | postDate }}</time>
+                    <a class="noteURL" href="{{ env.SERVER_ENV | append: post.url }}" target="_blank">Permanent Link</a> ·
+                    <time class="updatedAt">Updated: {{ post.date | postDate }}</time>
                 </div>
             </div>
         </div>
