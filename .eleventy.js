@@ -11,6 +11,12 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
 
+  eleventyConfig.addFilter("excludeCollection", function(allPosts, excludeKey) {
+    return allPosts.filter(post => {
+      return !post.data.tags.includes(excludeKey);
+    })
+  })
+
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd HH:mm:ss")
   })
