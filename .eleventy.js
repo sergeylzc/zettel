@@ -3,13 +3,11 @@ const eleventyNavPlugin = require("@11ty/eleventy-navigation")
 const { DateTime } = require("luxon")
 const env = require("dotenv").config()
 const inspect = require("util").inspect
-const xmlFiltersPlugin = require("eleventy-xml-plugin")
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addGlobalData("env", process.env)
 
   eleventyConfig.addPlugin(eleventyNavPlugin)
-  eleventyConfig.addPlugin(xmlFiltersPlugin)
 
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
 

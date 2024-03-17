@@ -9,13 +9,13 @@ eleventyExcludeFromCollections: true
     <link href="{{ siteMeta.feed.url }}" rel="self"/>
     <link href="{{ siteMeta.url }}"/>
     <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-    <id>{{ siteMeta.feed.url }}</id>
+    <id>{{ siteMeta.feed.id }}</id>
     <author>
         <name>{{ siteMeta.author.name }}</name>
         <email>{{ siteMeta.author.email }}</email>
     </author>
-    {%- for post in collections.all reversed -%}
-        {% assign absolutePostUrl = post.url | prepend: env.SERVER_ENV %}
+    {%- for post in collections.all | reverse %}
+    {% set absolutePostUrl = env.SERVER_ENV + post.url %}
         <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
