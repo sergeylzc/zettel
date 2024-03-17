@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
-title: 所谓平台红利期
-tags: read-essay-emergent-layers
+title: 何为平台红利期
+tags: area-mental-models-to-understanding-tech
 date: 2024-02-12
 ---
 - 一个新平台的出现意味着有新的资源可以公开access，这时创业公司会开始大量涌入希望能利用新的资源做成新的事情，很快行业就进入了peak of inflated expectations阶段。大部分公司最后会死掉。为什么这些公司最后会死掉？
