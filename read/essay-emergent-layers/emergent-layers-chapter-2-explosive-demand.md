@@ -43,7 +43,7 @@ date: 2024-03-17
     * iPhone并不只是一台更好的手机，而是把Mac OS X装进了你的口袋。消费者被市场上的手机overserved了基础通信需求，但移动互联网却被underserved了。所以iPhone的切入点为：Internet on the go
     * flomo浮墨笔记是一个小市场很好的例子，市场上的笔记软件不断的推出各种功能，overserved了基础的记录功能，但帮助消费者更好的思考的需求却被underserved了。帮助知识工作者更好的思考正是flomo在做的事情
     * Basecamp一直坚持的认为项目管理的关键在于沟通同步信息，而不在于管理。市面上很多的项目管理工具是面向管理的，服务项目经理为主，提供各种管理工具，overserved了项目管理的需求，但是却underserved了项目沟通信息同步的需求
-* 我们可以把通过overserved和underserved组合寻找差异化的方式总结为以下**「层叠 j 」**：
+* 我们可以把通过overserved和underserved组合寻找差异化的方式总结为以下 **「层叠 j 」**：
 * **「 j 层」**
     * 什么需求被现有解决方案overserved了？
     * 消费者被迫付出更多什么，时间、金钱还是其它？
