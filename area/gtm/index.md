@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: area-gtm
   title: Go-to-Market playbooks

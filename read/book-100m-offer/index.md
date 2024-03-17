@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: read-book-100m-offer
   title: Notes on $100M Offers

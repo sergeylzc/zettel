@@ -1,5 +1,6 @@
 ---
 layout: layouts/tagindex
+eleventyExcludeFromCollections: true
 tags: musing-entry
 eleventyNavigation:
   key: musing

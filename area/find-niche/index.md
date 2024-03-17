@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: area-find-niche
   title: Ways to find niche opportunities

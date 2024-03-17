@@ -1,5 +1,6 @@
 ---
 layout: layouts/tagindex
+eleventyExcludeFromCollections: true
 tags: read-entry
 eleventyNavigation:
   key: read

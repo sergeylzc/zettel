@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: area-mental-models-to-startup-building
   title: Mental Models to Startup Building

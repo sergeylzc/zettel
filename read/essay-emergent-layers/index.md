@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: read-essay-emergent-layers
   title: Notes on Emergent Layers

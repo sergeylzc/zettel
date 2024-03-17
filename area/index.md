@@ -1,5 +1,6 @@
 ---
 layout: layouts/tagindex
+eleventyExcludeFromCollections: true
 tags: area-entry
 eleventyNavigation:
   key: area

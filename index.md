@@ -1,5 +1,6 @@
 ---
 layout: layouts/tagindex
+eleventyExcludeFromCollections: true
 permalink: "/"
 date: 2024-03-09
 ---

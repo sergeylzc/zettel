@@ -1,5 +1,6 @@
 ---
 layout: layouts/list
+eleventyExcludeFromCollections: true
 eleventyNavigation:
   key: area-mental-models-to-understanding-tech
   title: Mental Models to Understanding Tech Industry

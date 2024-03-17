@@ -8,6 +8,7 @@ eleventyComputed:
   collectionKey: writing
 title: My Writings
 date: 2024-02-12
+eleventyExcludeFromCollections: true
 ---
 ### My Writings
 
