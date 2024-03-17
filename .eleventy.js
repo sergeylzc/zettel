@@ -12,7 +12,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toISODate()
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd HH:mm:ss")
   })
 
   eleventyConfig.addFilter("cleanTag", (url) => {

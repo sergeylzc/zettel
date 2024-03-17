@@ -1,0 +1,31 @@
+---
+layout: _html
+---
+{%- render "partials/header", collectionsAll: collections.all, page: page, env: env -%}
+<div id="notesContainer">
+  <div class="note">
+    <div id="notesHeader">
+      <div id="notesListHeaderWrapper">
+          <h1>{{ title }}</h1>
+          <div class="listDesc markdown-body">
+            {{ content }}
+          </div>
+      </div>
+    </div>
+    <div id="notesList">
+      {%- for post in collections[collectionKey] reversed -%}
+        <div class="noteItem" id="{{ post.data.page.fileSlug }}">
+            <div class="noteWrapper">
+                <div class="content markdown-body">
+                  {{ post.templateContent }}
+                </div>
+                <div class="metaInfo">
+                    <a class="noteURL" href="{{ env.SERVER_ENV | append: post.url }}" target="_blank">Permanent Link</a> ·
+                    <time class="updatedAt">{{ post.date | postDate }}</time>
+                </div>
+            </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
