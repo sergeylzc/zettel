@@ -1,0 +1,27 @@
+---
+permalink: /stream/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ siteMeta.title }}</title>
+    <subtitle>{{ siteMeta.feed.subtitle }}</subtitle>
+    <link href="{{ siteMeta.feed.url }}" rel="self"/>
+    <link href="{{ siteMeta.url }}"/>
+    <updated>{{ collections.all | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ siteMeta.feed.id }}</id>
+    <author>
+        <name>{{ siteMeta.author.name }}</name>
+        <email>{{ siteMeta.author.email }}</email>
+    </author>
+    {%- for post in collections["stream"] %}
+    {% set absolutePostUrl = env.SERVER_ENV + post.url %}
+        <entry>
+        <title>{{ post.data.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ post.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type="html">{{ post.templateContent }}</content>
+        </entry>
+    {%- endfor %}
+</feed>
