@@ -5,7 +5,7 @@ CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
 PUBLISH_DIRS := area musing read writing index.md
 
-.PHONY: clean_content copy_content load_content build_site generate commit_changes
+.PHONY: clean_content copy_content load_content build_site generate commit_changes publish_now
 
 clean_content:
 	@echo "✪ Cleaning existing content..."
@@ -52,3 +52,5 @@ publish:
 	git push origin master
 	@echo "✔︎ Pushed to GitHub"
 	@echo ""
+
+publish_now: clean_content copy_content build_site commit_changes publish
