@@ -5,7 +5,7 @@ CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
 PUBLISH_DIRS := area musing read writing stream index.md
 
-.PHONY: clean_content copy_content load_content build_site generate commit_changes publish_now
+.PHONY: clean_content copy_content load_content generate_excerpts build_site generate commit_changes publish_now
 
 clean_content:
 	@echo "✪ Cleaning existing content..."
@@ -21,21 +21,36 @@ copy_content:
 
 load_content: clean_content copy_content
 
+generate_excerpts:
+	@echo "✪ Running generate excerpts script..."
+	node ./script/generate-excerpts.js
+	@echo "✔︎ Excerpts generated"
+	@echo ""
+
 build_site:
 	@echo "✪ Start building site..."
 	@echo ""
+
+	@echo "✪ Running generate excerpts script..."
+	node ./script/generate-excerpts.js
+	@echo "✔︎ Excerpts generated"
+	@echo ""
+
 	@echo "✪ Removing _site..."
 	rm -rf ./_site
 	@echo "✔︎ Removed _site"
 	@echo ""
+
 	@echo "✪ Processing tailwindcss..."
 	npx tailwindcss -i ./static/css/style.css -o ./static/css/dist.css
 	@echo "✔︎ Processed tailwindcss"
 	@echo ""
+
 	@echo "✪ Generating _site..."
 	npx @11ty/eleventy
 	@echo "✔︎ Generated _site"
 	@echo ""
+
 	@echo "❂ Done building site"
 
 generate: clean_content copy_content build_site 

@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+{% if excerpt == undefined or excerpt == "" %}
+<title>Stream of Thoughts - LittleTunnel</title>
+<meta name="twitter:title" content="Stream of Thoughts - LittleTunnel">
+<meta property="og:title" content="Stream of Thoughts - LittleTunnel">
+{% else %}
+<title>{{ excerpt }}</title>
+<meta name="twitter:title" content="{{ excerpt }}">
+<meta property="og:title" content="{{ excerpt }}">
+{% endif %}
+<meta name="description" content="Stream of Thoughts · Sergey Li - LittleTunnel">
+<meta name="twitter:description" content="Stream of Thoughts · Sergey Li - LittleTunnel">
+<meta property="og:locale" content="zh_cn">
+<meta property="og:site_name" content="LittleTunnel">
+<meta property="og:type" content="website">
+<link rel="canonical" href="{{ "https://www.littletunnel.com" | append: page.url }}" />
+<meta name="robots" content="index, follow" />
