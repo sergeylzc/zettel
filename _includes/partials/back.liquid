@@ -1,6 +1,6 @@
-<div class="pb-4">
+<div class="back">
   {%- assign prevPage = page.url | getParentURL -%}
-  <a class="" href="{{ env.SERVER_ENV | append: prevPage }}">
-    <span class="font-medium">Back to Stream</span>
+  <a href="{{ env.SERVER_ENV | append: prevPage }}">
+    <span>Back to Stream</span>
   </a>
 </div>

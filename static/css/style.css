@@ -145,6 +145,14 @@ header .name {
     margin-bottom: 1.5rem;
 }
 
+.note .back {
+    @apply pb-4;
+}
+
+.note .back span {
+    @apply font-medium;
+}
+
 .note .metaInfo {
     font-size: 0.875rem;
     color: #8F9193;
