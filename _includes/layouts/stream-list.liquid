@@ -20,7 +20,7 @@ layout: _stream-html
                   {{ post.templateContent }}
                 </div>
                 <div class="metaInfo">
-                    <a class="noteURL" href="{{ env.SERVER_ENV | append: post.url }}" target="_blank">Permanent Link</a> ·
+                    <a class="noteURL" href="{{ env.SERVER_ENV | append: post.url }}">Permanent Link</a> ·
                     <time class="updatedAt">{{ post.date | postDate }}</time>
                 </div>
             </div>
