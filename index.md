@@ -11,7 +11,7 @@ date: 2024-03-09
   * <a href="https://www.littletunnel.com/area/better-thinker/" data-note-url="/area/better-thinker/">Be a better thinker</a>
   * <a href="https://www.littletunnel.com/area/mental-models-to-startup-building/" data-note-url="/area/mental-models-to-startup-building/">Mental models to startup building</a>
   * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">Ways to find niche opportunities</a>
-  * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">Go-to-Market playbooks</a>
+  * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">The First 100 Users Playbook</a>
   * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
   * <a href="https://www.littletunnel.com/area/mental-models-to-understanding-tech/" data-note-url="/area/mental-models-to-understanding-tech/">Mental Models to Understanding Tech Industry</a>
 * <a href="https://www.littletunnel.com/read/" data-note-url="/read/">What I've read</a>
