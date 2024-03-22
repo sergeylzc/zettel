@@ -3088,6 +3088,10 @@ video {
   vertical-align: super;
 }
 
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3555,6 +3559,14 @@ header .name {
   line-height: 2rem;
 }
 
+header .back {
+  font-size: 1.5rem;
+}
+
+header .back span {
+  font-weight: 500;
+}
+
 #notesListContainer {
   padding-top: 3.35rem;
 }
@@ -3649,14 +3661,6 @@ header .name {
 
 .noteWrapper .content {
   margin-bottom: 1.5rem;
-}
-
-.note .back {
-  padding-bottom: 1rem;
-}
-
-.note .back span {
-  font-weight: 500;
 }
 
 .note .metaInfo {

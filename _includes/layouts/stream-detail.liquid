@@ -1,15 +1,15 @@
 ---
 layout: _stream-html
 ---
-{%- render "partials/header", collectionsAll: collections.all, page: page, env: env -%}
+{%- render "partials/header", collectionsAll: collections.all, page: page, env: env, back: true -%}
 <div id="notesContainer">
   <div class="note" data-note-url="{{ page.url }}">
-    {%- render "partials/back", collectionsAll: collections.all, page: page, env: env -%}
     <div class="noteWrapper">
       <div class="content markdown-body">
         {{ content }}
       </div>
       <div class="metaInfo">
+        <a class="noteURL" href="{{ env.SERVER_ENV | append: page.url }}" target="_blank">Permanent Link</a> ·
         <time class="updatedAt">{{ page.date | postTime }}</time>
       </div>
     </div>

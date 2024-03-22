@@ -10,6 +10,7 @@ layout: _html
         {{ content }}
       </div>
       <div class="metaInfo">
+        <a class="noteURL" href="{{ env.SERVER_ENV | append: page.url }}" target="_blank">Permanent Link</a> ·
         <time class="updatedAt">{{ page.date | postTime }}</time>
       </div>
     </div>
