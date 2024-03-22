@@ -22,7 +22,11 @@
 <meta name="twitter:domain" content="LittleTunnel">
 <meta name="twitter:site" content="@sergeylzc">
 <link rel="canonical" href="{{ "https://www.littletunnel.com" | append: page.url }}" />
+{% if noindex == true %}
+<meta name="robots" content="noindex, nofollow" />
+{% else %}
 <meta name="robots" content="index, follow" />
+{% endif %}
 {%- if featured_img -%}
 <meta property="og:image" content="{{ featured_img }}">
 <meta name="twitter:image" content="{{ featured_img }}">
