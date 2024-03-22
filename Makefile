@@ -3,7 +3,7 @@ ZETTEL_DIR := .
 # Path to the working_content directory
 CONTENT_DIR := ../content
 # List of directories and files to be deleted from the ZETTEL_DIR directory
-PUBLISH_DIRS := area musing read writing stream index.md
+PUBLISH_DIRS := area musing read writing reference stream index.md
 
 .PHONY: clean_content copy_content load_content generate_excerpts build_site generate commit_changes publish_now
 
