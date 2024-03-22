@@ -51,7 +51,7 @@ build_site:
 	@echo "✔︎ Generated _site"
 	@echo ""
 
-	@echo "❂ Done building site"
+	@echo "✪ Done building site"
 
 generate: clean_content copy_content build_site 
 
