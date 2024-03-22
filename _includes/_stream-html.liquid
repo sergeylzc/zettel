@@ -2,7 +2,7 @@
 <html lang="zh-CN">
   <head>
     {%- render "partials/stream-head", page: page, siteMeta: siteMeta, title: title, excerpt: excerpt -%}
-    <link rel="stylesheet" href="/static/css/dist.css">
+    <link rel="stylesheet" href="/static/css/dist.css?v={{ '/static/css/dist.css' | hashFile }}">
   </head>
   <body>
     {{ content }}
