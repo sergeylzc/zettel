@@ -165,7 +165,7 @@ function updateQueryParams(notesList) {
     window.history.pushState(null, null, `?${queryParams.toString()}`);
 }
 
-function fetchNoteContent(noteURL, includeLinks = false) {
+function fetchNoteContent(noteURL, includeLinks = true) {
     return fetch(`${noteURL}/index.html`)
         .then(response => {
             if (!response.ok) {
