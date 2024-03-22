@@ -1,3 +1,6 @@
+const fs = require('fs')
+const path = require('path')
+const crypto = require('crypto')
 const markdownIt = require("markdown-it")
 const eleventyNavPlugin = require("@11ty/eleventy-navigation")
 const { DateTime } = require("luxon")
@@ -10,6 +13,22 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(eleventyNavPlugin)
 
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
+
+  eleventyConfig.addFilter('hashFile', function(filePath) {
+    // Ensure the path is relative to your site's root
+    const fullPath = path.join(__dirname, filePath)
+
+    try {
+      const fileBuffer = fs.readFileSync(fullPath)
+      const hashSum = crypto.createHash('sha1')
+      hashSum.update(fileBuffer)
+      const hex = hashSum.digest('hex')
+      return hex
+    } catch (error) {
+      console.error(`Error hashing file ${filePath}:`, error)
+      return ''
+    }
+  })
 
   eleventyConfig.addFilter("excludeCollection", function(allPosts, excludeKey) {
     return allPosts.filter(post => {
