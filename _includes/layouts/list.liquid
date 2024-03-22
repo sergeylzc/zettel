@@ -24,7 +24,7 @@ layout: _html
                 </div>
                 <div class="metaInfo">
                     <a class="noteURL" href="{{ env.SERVER_ENV | append: post.url }}" target="_blank">Permanent Link</a> ·
-                    <time class="updatedAt">{{ post.date | postDate }}</time>
+                    <time class="updatedAt">{{ post.date | postTime }}</time>
                 </div>
             </div>
         </div>

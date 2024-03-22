@@ -18,6 +18,10 @@ module.exports = (eleventyConfig) => {
   })
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd")
+  })
+
+  eleventyConfig.addFilter("postTime", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-LL-dd HH:mm:ss")
   })
 
