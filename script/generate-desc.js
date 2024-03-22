@@ -4,8 +4,20 @@ const matter = require('gray-matter')
 const markdownIt = require('markdown-it')
 const md = new markdownIt()
 
-const contentDirs = ['./stream', './reference']
-const excerptLength = 60
+const contentDirs = [
+                      './area/gtm',
+                      './area/find-niche',
+                      './area/better-thinker',
+                      './area/mental-models-to-startup-building',
+                      './area/mental-models-to-understanding-tech',
+                      './area/social-product',
+                      './area/social-product',
+                      './musing/building-products-people-want',
+                      './read/book-100m-offer',
+                      './read/essay-emergent-layers',
+                      './writing'
+                    ]
+const descLength = 160
 
 function processFile(filePath) {
   if (path.basename(filePath) === 'index.md') {
@@ -16,11 +28,11 @@ function processFile(filePath) {
   const fileContent = fs.readFileSync(filePath, 'utf8')
   const parsedContent = matter(fileContent)
 
-  if (!parsedContent.data.excerpt) {
-    let excerpt = parsedContent.content.slice(0, excerptLength - 3) + '...'
-    excerpt = md.render(excerpt).replace(/<[^>]*>/g, '')
+  if (!parsedContent.data.description) {
+    let description = parsedContent.content.slice(0, descLength - 3) + '...'
+    description = md.render(description).replace(/<[^>]*>/g, '').replace(/\n+/g, ' ')
     
-    parsedContent.data.excerpt = excerpt
+    parsedContent.data.description = description
     const newContent = matter.stringify(parsedContent.content, parsedContent.data)
     fs.writeFileSync(filePath, newContent)
     console.log(`Excerpt added to ${filePath}`)

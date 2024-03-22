@@ -1,6 +1,6 @@
 <header>
   {% if back == true %}
-    {%- render "partials/back", collectionsAll: collections.all, page: page, env: env -%}    
+    {%- render "partials/back", collectionsAll: collections.all, page: page, env: env -%}
   {% else %}
     <div id="brand">
       <a href="{{ env.SERVER_ENV | append: "/" }}">

@@ -3,16 +3,16 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
-{%- assign description = excerpt | default: siteMeta.desc -%}
-{% if title == undefined or title == "" %}
+{%- assign description = description | default: siteMeta.desc -%}
+{%- if title == undefined or title == "" -%}
 <title>LittleTunnel</title>
 <meta name="twitter:title" content="LittleTunnel">
 <meta property="og:title" content="LittleTunnel">
-{% else %}
+{%- else -%}
 <title>{{ title }} - LittleTunnel</title>
 <meta name="twitter:title" content="{{ title }} - LittleTunnel">
 <meta property="og:title" content="{{ title }} - LittleTunnel">
-{% endif %}
+{%- endif -%}
 <meta name="description" content="{{ description }}">
 <meta name="twitter:description" content="{{ description }}">
 <meta property="og:locale" content="zh_cn">
@@ -22,11 +22,11 @@
 <meta name="twitter:domain" content="LittleTunnel">
 <meta name="twitter:site" content="@sergeylzc">
 <link rel="canonical" href="{{ "https://www.littletunnel.com" | append: page.url }}" />
-{% if noindex == true %}
+{%- if noindex == true -%}
 <meta name="robots" content="noindex, nofollow" />
-{% else %}
+{%- else -%}
 <meta name="robots" content="index, follow" />
-{% endif %}
+{%- endif -%}
 {%- if featured_img -%}
 <meta property="og:image" content="{{ featured_img }}">
 <meta name="twitter:image" content="{{ featured_img }}">
