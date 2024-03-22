@@ -38,7 +38,7 @@ build_site:
 	@echo ""
 
 	@echo "✪ Running generate excerpt script..."
-	node ./script/generate-excerpts.js
+	node ./script/generate-excerpt.js
 	@echo "✔︎ Excerpts generated"
 	@echo ""
 

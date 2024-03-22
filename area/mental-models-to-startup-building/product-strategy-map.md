@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Product Strategy Map
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Target audience - narrowest relevant set of users Problem you''re solving - specific challenge solved for users Value proposition - a clear value statem... '
 ---
 * Target audience - narrowest relevant set of users
 * Problem you're solving - specific challenge solved for users

@@ -1,9 +1,12 @@
 ---
 layout: layouts/detail
 title: 如何提高产品价值
-description: 
+description: >-
+  最近刚读完一本名为《$100M Offers：How To Make Offers So Good People Feel Stupid Saying
+  No》的书，它在亚马逊上获得了过万五星好评，作者是 Alex Hormozi。 通过自己在商场多年的实战经验，Alex
+  分享了做好业务的关键在于找到一个有潜力的... 
 tags: writing
-date: 2024-02-12
+date: 2024-02-12T00:00:00.000Z
 ---
 最近刚读完一本名为《$100M Offers：How To Make Offers So Good People Feel Stupid Saying No》的书，它在亚马逊上获得了过万五星好评，作者是 Alex Hormozi。
 

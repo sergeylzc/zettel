@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: KISSmetrics's 3-Step Startup Marketing Framework
 tags: area-gtm
-date: 2024-03-22
+date: 2024-03-22T00:00:00.000Z
+description: ' Who is your target customer? Identify your target customer by understanding: What your product does What problem is solves Who wants this prob... '
 ---
 1. Who is your target customer? Identify your target customer by understanding:
   * What your product does

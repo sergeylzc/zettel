@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Start Small and Monopolize
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Every startup should start with a very small market because it''s easier to dominate a small market than a large one You are small at the beginning henc... '
 ---
 * Every startup should start with a very small market because it's easier to dominate a small market than a large one
   * You are small at the beginning hence lacking competitiveness

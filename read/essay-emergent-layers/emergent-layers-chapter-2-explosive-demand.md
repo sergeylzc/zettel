@@ -2,7 +2,11 @@
 layout: layouts/detail
 title: 科技叠层理论第二节：爆发式的需求
 tags: read-essay-emergent-layers
-date: 2024-03-17
+date: 2024-03-17T00:00:00.000Z
+description: >-
+  Introduction 被新技术抽象出的新可规模化资源，给价值创造提供了新的可能性
+  但该技术要被广泛应用还需要有相应的市场条件，即能找到可落地的应用场景，解决消费者的实际需求 VR 和 Blockchain
+  是两个技术在寻找市场的很好例子，新的技术的确出现了，但却缺少了大规模可应用的场景 ...
 ---
 ## Introduction
 * 被新技术抽象出的新可规模化资源，给价值创造提供了新的可能性

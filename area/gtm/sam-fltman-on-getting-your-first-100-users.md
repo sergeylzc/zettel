@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Sam Altman on getting your first 100 users
 tags: area-gtm
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Use your network. Email/call in favors from everyone you know. If it''s a paid product, charge them. It''s a good way to validate your product Research peo... '
 ---
 * Use your network. Email/call in favors from everyone you know. If it's a paid product, charge them. It's a good way to validate your product
 * Research people who might use your product and reach out to them asking to try. "Conversion rates are low — maybe 2-3% — so youll have to reach out to more people"

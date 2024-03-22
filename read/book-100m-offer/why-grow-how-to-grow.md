@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Why grow and how to grow
 tags: read-book-100m-offer
-date: 2024-02-12
+date: 2024-02-12T00:00:00.000Z
+description: ' As a company, you have to grow or die. You can''t stand still if every around you is growing. So what does it take to grow? Get more customers Inc... '
 ---
 - As a company, you have to grow or die. You can't stand still if every around you is growing.
 - So what does it take to grow?

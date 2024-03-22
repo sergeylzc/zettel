@@ -2,7 +2,10 @@
 layout: layouts/detail
 title: TikTok and the Sorting Hat
 tags: area-social-product
-date: 2024-02-12
+date: 2024-02-12T00:00:00.000Z
+description: >-
+  TikTok is an exception to my cultural determinist worldview My cultural
+  determinist worldview Skeptical any of the new tech companies out of Chin...
 ---
 ### TikTok is an exception to my cultural determinist worldview
 - My cultural determinist worldview

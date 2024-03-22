@@ -2,7 +2,11 @@
 layout: layouts/detail
 title: 科技叠层理论第三节：爆发式增长
 tags: read-essay-emergent-layers
-date: 2024-03-17
+date: 2024-03-17T00:00:00.000Z
+description: >-
+  Introduction 在&lt;a
+  href=&quot;https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/&quot;
+  data-note-url=&quot;/read/essay...
 ---
 ## Introduction
 * 在<a href="https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/" data-note-url="/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/">第一节</a>中，我们提到技术发展的规律往往在于把稀缺资源变成可规模化资源，然后随着推移又会出现新的稀缺资源，以此往复。为了更好的理解，我们把这个过程抽象为「层叠 i 」

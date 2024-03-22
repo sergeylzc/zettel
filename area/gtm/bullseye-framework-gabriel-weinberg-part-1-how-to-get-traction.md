@@ -1,8 +1,14 @@
 ---
 layout: layouts/detail
-title: Bullseye framework by Gabriel Weinberg Part 1 - How to get traction for your startup
+title: >-
+  Bullseye framework by Gabriel Weinberg Part 1 - How to get traction for your
+  startup
 tags: area-gtm
-date: 2024-03-22
+date: 2024-03-22T00:00:00.000Z
+description: >-
+  As Peter Thiel says in his book Zero to One: It is very likely that one
+  channel is optimal. Most businesses actually get zero distribution channels to
+  wor...
 ---
 As Peter Thiel says in his book Zero to One:
 

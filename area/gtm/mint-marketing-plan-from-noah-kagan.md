@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Mint Marketing Plan from Noah Kagan
 tags: area-gtm
-date: 2024-03-12
+date: 2024-03-12T00:00:00.000Z
+description: ' Mint.com grew to over 100,000 registered users within 6 months of launch from a prelaunch list of 1000 registered users 3 months before launch The se... '
 ---
 * Mint.com grew to over 100,000 registered users within 6 months of launch from **a prelaunch list of 1000 registered users 3 months before launch**
 * The secret is their Quant-based marketing framework called The Mint Marketing Playbook

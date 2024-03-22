@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: How KISSmetrics got their early traction
 tags: area-gtm
-date: 2024-03-22
+date: 2024-03-22T00:00:00.000Z
+description: ' The channel they identified for their target audience was Twitter The value giving tactic they employed was sharing great content from other marketers ... '
 ---
 * The channel they identified for their target audience was Twitter
 * The value giving tactic they employed was sharing great content from other marketers

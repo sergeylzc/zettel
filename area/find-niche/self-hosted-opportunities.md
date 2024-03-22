@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Self hosted 利基市场机会
 tags: area-find-niche
-date: 2024-03-09
+date: 2024-03-09T00:00:00.000Z
+description: ' Basecamp 把当年的一个 SaaS 产品 Campfire 炒冷饭用一次性买断的方式进行售卖，这事情为什么行得通？ 便宜很多！DHH 说的很清楚了：3年的总费用，500个席位，ONCE Campfire 便宜 99.9%！ 运维傻瓜化了，现在安装维护互联网应用比以前方便多了，稍有研发经验... '
 ---
 * Basecamp 把当年的一个 SaaS 产品 Campfire 炒冷饭用一次性买断的方式进行售卖，这事情为什么行得通？
   * 便宜很多！DHH 说的很清楚了：3年的总费用，500个席位，ONCE Campfire 便宜 99.9%！

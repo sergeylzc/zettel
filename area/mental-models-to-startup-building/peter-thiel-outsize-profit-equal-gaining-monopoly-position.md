@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Outsize profit = gaining monopoly position
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Competition means you can''t get all of the reward Profit is the reward doing business When facing competition in business, profit will be competed away... '
 ---
 * Competition means you can't get all of the reward
 * Profit is the reward doing business

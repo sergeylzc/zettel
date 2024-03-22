@@ -1,8 +1,13 @@
 ---
 layout: layouts/detail
-title: Bullseye framework by Gabriel Weinberg Part 2 - How do you decide which traction to focus on?
+title: >-
+  Bullseye framework by Gabriel Weinberg Part 2 - How do you decide which
+  traction to focus on?
 tags: area-gtm
-date: 2024-03-22
+date: 2024-03-22T00:00:00.000Z
+description: >-
+  Or more broadly what to work on? Define your traction goal and critical Path
+  to guide you. Defining your traction goal Given all the different opportu...
 ---
 Or more broadly what to work on? Define your traction goal and critical Path to guide you.
 

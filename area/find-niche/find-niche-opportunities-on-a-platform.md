@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: 找到平台生态内机会的思路
 tags: area-find-niche
-date: 2024-03-09
+date: 2024-03-09T00:00:00.000Z
+description: ' 浏览各平台应用市场的应用，如 Slack、Atlassian、Chrome、Google Suite、Shopify、Notion等 做记录，尤其是那些评论不佳的应用，他们表明有做得更好或差异化的可能 将发现的所有想法中，将范围缩小到5个，按照定好的目标和约束条件进行筛选： 一个已经存在的痛点... '
 ---
 * 浏览各平台应用市场的应用，如 Slack、Atlassian、Chrome、Google Suite、Shopify、Notion等
 * 做记录，尤其是那些评论不佳的应用，他们表明有做得更好或差异化的可能

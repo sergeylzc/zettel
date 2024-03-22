@@ -1,9 +1,12 @@
 ---
 layout: layouts/detail
 title: 创业正确的心态：避免死亡
-description: 
+description: >-
+  在上一期中，我们分享了 Paul Graham 的建议：面对创业的不确定性，最重要的是要活下去。本期，我们将分享一个该建议的实践案例。 Ryan
+  Peterson 是货代平台 Flexport 的联合创始人和 co-CEO。他曾在 Garry Tan 主持的播客节目中分享了他在创立 Flexport
+  前其它的创... 
 tags: writing
-date: 2024-02-12
+date: 2024-02-12T00:00:00.000Z
 ---
 在上一期中，我们分享了 Paul Graham 的建议：面对创业的不确定性，最重要的是要活下去。本期，我们将分享一个该建议的实践案例。
 

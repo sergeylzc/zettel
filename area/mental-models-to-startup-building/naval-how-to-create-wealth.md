@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: How to create wealth
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Give society what it wants but does not yet know how to get AT SCALE Principles to get wealthy Get specific knowledge that no one but you have &lt;a hre... '
 ---
 * Give society what it wants but does not yet know how to get AT SCALE
 * Principles to get wealthy

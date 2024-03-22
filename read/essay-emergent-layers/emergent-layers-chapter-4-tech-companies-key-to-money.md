@@ -2,7 +2,11 @@
 layout: layouts/detail
 title: 科技叠层理论第四节：技术公司赚钱的关键
 tags: read-essay-emergent-layers
-date: 2024-03-17
+date: 2024-03-17T00:00:00.000Z
+description: >-
+  Introduction &lt;a
+  href=&quot;https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/&quot;
+  data-note-url=&quot;/read/essay-...
 ---
 ## Introduction
 - <a href="https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/" data-note-url="/read/essay-emergent-layers/emergent-layers-chapter-1-new-value-creation/">第一节</a>、<a href="https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-2-explosive-demand/" data-note-url="/read/essay-emergent-layers/emergent-layers-chapter-2-explosive-demand/">第二节</a>和<a href="https://www.littletunnel.com/read/essay-emergent-layers/emergent-layers-chapter-2-explosive-demand/" data-note-url="/read/essay-emergent-layers/emergent-layers-chapter-3-explosive-growth/">第三节</a>中，我们主要从科技行业的角度讨论技术的发展规律，以及新技术如何将稀缺资源抽象成可规模化的资源，从而使新的价值创造成为可能。从整个社会的角度来看，这是一件好事，因为我们更高层次的需求得以被满足

@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: 前沿理念工具化
 tags: area-find-niche
-date: 2024-03-09
+date: 2024-03-09T00:00:00.000Z
+description: ' flomo 这个产品，支撑它的核心理念是 How to Take Smart Notes 这本书提到的 X 上一个叫 Easlo 的人，基于 Tiago Forte 写的 Building a Second Brain 书，做了一套 Notion template，也赚翻了 习惯养成类这个类目，A... '
 ---
 * flomo 这个产品，支撑它的核心理念是 How to Take Smart Notes 这本书提到的
 * X 上一个叫 Easlo 的人，基于 Tiago Forte 写的  

@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Who is your customer?
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Can''t understand what problem you are solving until knowing who you are solving it for Start with a niche market. You are going to be lost because you do... '
 ---
 * Can't understand what problem you are solving until knowing who you are solving it for
 * Start with a niche market. You are going to be lost because you don't know who you should talk to

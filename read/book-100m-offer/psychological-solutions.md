@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Psychological solutions are your opportunities
 tags: read-book-100m-offer
-date: 2024-02-12
+date: 2024-02-12T00:00:00.000Z
+description: ' Most people naturally try and solve problems using logical solutions, which usually have been tried If you try to solve a problem with logic, what comes ... '
 ---
 - Most people naturally try and solve problems using logical solutions, which usually have been tried
 - If you try to solve a problem with logic, what comes out of it usually is a undifferentiated solution

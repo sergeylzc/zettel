@@ -2,7 +2,8 @@
 layout: layouts/detail
 title: Escape Competition Through Authenticity
 tags: area-mental-models-to-startup-building
-date: 2024-03-10
+date: 2024-03-10T00:00:00.000Z
+description: ' Wealth creation in essence is value creation to society exchanging for rewards &lt;a href=&quot;https://www.littletunnel.com/area/mental-models-to-startup-building... '
 ---
 * Wealth creation in essence is value creation to society exchanging for rewards <a href="https://www.littletunnel.com/area/mental-models-to-startup-building/naval-how-to-create-wealth/" data-note-url="/area/mental-models-to-startup-building/naval-how-to-create-wealth/" target="_blank">🔗</a>
 * To gain outsize rewards, you have to become monopoly <a href="https://www.littletunnel.com/area/mental-models-to-startup-building/peter-thiel-outsize-profit-equal-gaining-monopoly-position/" data-note-url="/area/mental-models-to-startup-building/peter-thiel-outsize-profit-equal-gaining-monopoly-position/" target="_blank">🔗</a>

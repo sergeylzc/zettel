@@ -1,8 +1,14 @@
 ---
 layout: layouts/detail
-title: Slow and steady wins the marketing channel race (Marketing playbook by Datadog’s CMO Alex Rosemblat)
+title: >-
+  Slow and steady wins the marketing channel race (Marketing playbook by
+  Datadog’s CMO Alex Rosemblat)
 tags: area-gtm
-date: 2024-03-09
+date: 2024-03-09T00:00:00.000Z
+description: >-
+  Build Your Marketing Channel Like You Build a Product Product team operates
+  with a series of iterations, cycles, and feedback. Same for a marketing
+  chan...
 ---
 ## Build Your Marketing Channel Like You Build a Product
 * Product team operates with a series of iterations, cycles, and feedback. Same for a marketing channel
