@@ -30,4 +30,7 @@
 {%- if featured_img -%}
 <meta property="og:image" content="{{ featured_img }}">
 <meta name="twitter:image" content="{{ featured_img }}">
+{%- else -%}
+<meta property="og:image" content="/static/img/default_featured_img.png">
+<meta name="twitter:image" content="/static/img/default_featured_img.png">
 {%- endif -%}
