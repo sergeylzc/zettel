@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
         <name>{{ siteMeta.author.name }}</name>
         <email>{{ siteMeta.author.email }}</email>
     </author>
-    {%- for post in collections.all | excludeCollection("stream") %}
+    {%- for post in collections.all | excludeCollection(["stream", "reference"]) %}
     {% set absolutePostUrl = env.SERVER_ENV + post.url %}
         <entry>
         <title>{{ post.data.title }}</title>

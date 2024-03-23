@@ -69,7 +69,7 @@ generate: clean_content copy_content build_site
 commit_changes:
 	@echo "✪ Committing changes..."
 	git add .
-	git commit -m "Update site content - $(shell date "+%Y-%m-%d %H:%M:%S")"
+	git commit -m "update site content: $(shell date "+%Y-%m-%d %H:%M:%S")"
 	@echo "✔︎ Committed changes"
 	@echo ""
 

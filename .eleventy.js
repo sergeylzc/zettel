@@ -30,9 +30,13 @@ module.exports = (eleventyConfig) => {
     }
   })
 
-  eleventyConfig.addFilter("excludeCollection", function(allPosts, excludeKey) {
+  eleventyConfig.addFilter("excludeCollection", function(allPosts, excludeKeys) {
+    if (!Array.isArray(excludeKeys)) {
+      excludeKeys = [excludeKeys]
+    }
+
     return allPosts.filter(post => {
-      return !post.data.tags.includes(excludeKey);
+      return !excludeKeys.some(key => post.data.tags.includes(key))
     })
   })
 
