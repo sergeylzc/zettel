@@ -4,7 +4,7 @@ title: Social Network for Knowledge Workers
 description: >-
   When it comes to understanding or discussing social products, I align myself
   with the Social Capital theory camp. This theory is heavily discussed by
-  [Julian... 
+  Julian Leh...
 tags: writing
 date: 2024-02-12T00:00:00.000Z
 ---
