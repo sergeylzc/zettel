@@ -15,13 +15,13 @@ eleventyExcludeFromCollections: true
         <email>{{ siteMeta.author.email }}</email>
     </author>
     {%- for post in collections.all | excludeCollection(["stream", "reference"]) %}
-    {% set absolutePostUrl = env.SERVER_ENV + post.url %}
+    {%- set absolutePostUrl = env.SERVER_ENV + post.url %}
         <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ absolutePostUrl }}</id>
-        <content type="html">{{ post.description }}</content>
+        <content type="html">{{ post.data.description }}</content>
         </entry>
     {%- endfor %}
 </feed>
