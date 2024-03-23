@@ -3,6 +3,7 @@ const path = require('path')
 const matter = require('gray-matter')
 const markdownIt = require('markdown-it')
 const md = new markdownIt()
+const he = require('he')
 
 const contentDirs = [
                       './area/gtm',
@@ -29,13 +30,25 @@ function processFile(filePath) {
   const parsedContent = matter(fileContent)
 
   if (!parsedContent.data.description) {
-    let description = parsedContent.content.slice(0, descLength - 3) + '...'
-    description = md.render(description).replace(/<[^>]*>/g, '').replace(/\n+/g, ' ')
+    let renderedContent = md.render(parsedContent.content)
+
+    renderedContent = he.decode(renderedContent)
+
+    renderedContent = renderedContent.replace(/<a href="[^"]*">([^<]+)<\/a>/g, '$1')
+
+    renderedContent = renderedContent.replace(/<[^>]*>/g, '')
+
+    renderedContent = renderedContent.replace(/\r?\n|\r/g, ' ').replace(/\s\s+/g, ' ').trim()
+
+    renderedContent = renderedContent.slice(0, descLength)
+    if (renderedContent.length > descLength - 3) {
+        renderedContent += '...'
+    }
     
-    parsedContent.data.description = description
+    parsedContent.data.description = renderedContent
     const newContent = matter.stringify(parsedContent.content, parsedContent.data)
     fs.writeFileSync(filePath, newContent)
-    console.log(`Excerpt added to ${filePath}`)
+    console.log(`Description added to ${filePath}`)
   }
 }
 

@@ -1811,6 +1811,10 @@ video {
   clear: none;
 }
 
+.m-48 {
+  margin: 12rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
