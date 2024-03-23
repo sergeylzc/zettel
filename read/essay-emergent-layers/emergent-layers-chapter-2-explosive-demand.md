@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 科技叠层理论第二节：爆发式的需求
-tags: read-essay-emergent-layers
+tags: emergentlayersessay
 date: 2024-03-17T00:00:00.000Z
 description: >-
   Introduction 被新技术抽象出的新可规模化资源，给价值创造提供了新的可能性；

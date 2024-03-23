@@ -2,11 +2,11 @@
 layout: layouts/list
 eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: area-gtm
+  key: gtm
   title: The First 100 Users Playbook
   parent: area
 eleventyComputed:
-  collectionKey: area-gtm
+  collectionKey: gtm
 title: The First 100 Users Playbook
 date: 2024-03-09
 ---

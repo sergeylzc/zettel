@@ -2,11 +2,11 @@
 layout: layouts/list
 eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: musing-building-products-people-want
+  key: buildingproductspeoplewant
   title: How to build products people want
   parent: musing
 eleventyComputed:
-  collectionKey: musing-building-products-people-want
+  collectionKey: buildingproductspeoplewant
 title: Musings on how to build products people want
 date: 2024-02-12
 ---

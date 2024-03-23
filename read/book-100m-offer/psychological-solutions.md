@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Psychological solutions are your opportunities
-tags: read-book-100m-offer
+tags: book100moffers
 date: 2024-02-12T00:00:00.000Z
 description: >-
   Most people naturally try and solve problems using logical solutions, which

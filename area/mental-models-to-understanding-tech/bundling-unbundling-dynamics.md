@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 一条产业链的发展其实就是不断的bundling和unbundling的过程
-tags: area-mental-models-to-understanding-tech
+tags: understandtechmentalmodels
 date: 2024-03-12T00:00:00.000Z
 description: >-
   商业社会是基于人的需求发展起来的； 分工和自由竞争导致，每一个需求背后都有一条产业链，这些产业链中所有的公司构成了一个行业；

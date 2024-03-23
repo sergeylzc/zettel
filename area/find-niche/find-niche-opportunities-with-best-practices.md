@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 前沿理念工具化
-tags: area-find-niche
+tags: findniche
 date: 2024-03-09T00:00:00.000Z
 description: >-
   flomo这个产品，支撑它的核心理念是How to Take Smart Notes这本书提到的； X上一个叫Easlo的人，基于Tiago

@@ -2,11 +2,11 @@
 layout: layouts/list
 eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: area-find-niche
+  key: findniche
   title: Ways to find niche opportunities
   parent: area
 eleventyComputed:
-  collectionKey: area-find-niche
+  collectionKey: findniche
 title: Ways to find niche opportunities
 date: 2024-03-09
 ---

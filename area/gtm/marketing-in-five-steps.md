@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 做营销的五个步骤
-tags: area-gtm
+tags: gtm
 date: 2024-02-12T00:00:00.000Z
 description: >-
   第一步，创造一个值得存在的东西，它有一个内在可以讲述的故事，以及你的贡献是值得谈论的；

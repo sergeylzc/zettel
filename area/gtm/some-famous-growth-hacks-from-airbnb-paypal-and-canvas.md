@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 'Some famous growth hacks from Airbnb, PayPal and Canvas'
-tags: area-gtm
+tags: gtm
 date: 2024-03-12T00:00:00.000Z
 description: >-
   Airbnb wrote a script to automatically post each new listing to Craigslist

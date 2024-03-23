@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 科技叠层理论第一节：新价值创造能力
-tags: read-essay-emergent-layers
+tags: emergentlayersessay
 date: 2024-03-17T00:00:00.000Z
 description: >-
   Introduction 人类得以繁衍和进步的重要原因是具有发明创造的能力； 人类社会过去在任意时间点上都面临各种稀缺资源；

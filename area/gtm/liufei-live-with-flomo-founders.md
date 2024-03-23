@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 刘飞 / 少楠 / 白光的直播笔记
-tags: area-gtm
+tags: gtm
 date: 2024-02-12T00:00:00.000Z
 description: >-
   flomo一开始冷启动采用了人拉人的方式（很多人都劝他们不要做了）； 产品沉思录是否对冷启动有帮助？

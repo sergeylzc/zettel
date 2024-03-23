@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Self hosted 利基市场机会
-tags: area-find-niche
+tags: findniche
 date: 2024-03-09T00:00:00.000Z
 description: >-
   Basecamp把当年的一个SaaS产品Campfire炒冷饭用一次性买断的方式进行售卖，这事情为什么行得通？

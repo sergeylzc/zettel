@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 早期Shopify的冷启动
-tags: area-gtm
+tags: gtm
 date: 2024-03-17T00:00:00.000Z
 description: >-
   一个电商业务要做起来「流量 → 店铺运营 → 支付 → 仓储 → 物流配送」这几个环节都要跑通，且ROI是正的；

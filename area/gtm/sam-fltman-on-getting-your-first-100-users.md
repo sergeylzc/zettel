@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Sam Altman on getting your first 100 users
-tags: area-gtm
+tags: gtm
 date: 2024-03-10T00:00:00.000Z
 description: >-
   Use your network. Email/call in favors from everyone you know. If it's a paid

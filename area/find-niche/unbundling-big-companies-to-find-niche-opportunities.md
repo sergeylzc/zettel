@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 在大公司的用户群中挑选一个小的群体服务
-tags: area-find-niche
+tags: findniche
 date: 2024-03-17T00:00:00.000Z
 description: >-
   很多现今发展起来的产品，一开始只服务于一个用户群体，后来为了做大，开始迭代产品适应更多的用户群体： 1Password

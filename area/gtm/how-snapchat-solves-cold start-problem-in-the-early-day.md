@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: How Snapchat solves cold start problem in the early day
-tags: area-gtm
+tags: gtm
 date: 2024-03-22T00:00:00.000Z
 description: >-
   The channel they identified for their target audience was Twitter; The value

@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 四象限思维工具
-tags: area-better-thinker
+tags: betterthinker
 date: 2024-02-12T00:00:00.000Z
 description: >-
   出发点： 世界本是复杂、多维的，但人却不太擅长进行多维度思考； 很多时候多维的事物总被简化为单维，过于简化地看待世界。 作用：

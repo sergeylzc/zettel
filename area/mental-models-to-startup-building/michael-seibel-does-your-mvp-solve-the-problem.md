@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Does your MVP actually solve the problem?
-tags: area-mental-models-to-startup-building
+tags: startupbuildingmentalmodels
 date: 2024-03-10T00:00:00.000Z
 description: >-
   Best way to test if your MVP solves the problem is give to the users to try;

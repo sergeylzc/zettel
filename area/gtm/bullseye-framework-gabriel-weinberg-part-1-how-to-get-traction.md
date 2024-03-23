@@ -3,7 +3,7 @@ layout: layouts/detail
 title: >-
   Bullseye framework by Gabriel Weinberg Part 1 - How to get traction for your
   startup
-tags: area-gtm
+tags: gtm
 date: 2024-03-22T00:00:00.000Z
 description: >-
   As Peter Thiel says in his book Zero to One: It is very likely that one

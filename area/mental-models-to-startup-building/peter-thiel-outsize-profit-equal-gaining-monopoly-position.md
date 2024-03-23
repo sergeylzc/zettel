@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Outsize profit = gaining monopoly position
-tags: area-mental-models-to-startup-building
+tags: startupbuildingmentalmodels
 date: 2024-03-10T00:00:00.000Z
 description: >-
   Competition means you can't get all of the reward; Profit is the reward doing

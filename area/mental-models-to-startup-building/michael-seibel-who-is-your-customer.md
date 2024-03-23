@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Who is your customer?
-tags: area-mental-models-to-startup-building
+tags: startupbuildingmentalmodels
 date: 2024-03-10T00:00:00.000Z
 description: >-
   Can't understand what problem you are solving until knowing who you are

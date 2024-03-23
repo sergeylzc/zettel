@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Escape Competition Through Authenticity
-tags: area-mental-models-to-startup-building
+tags: startupbuildingmentalmodels
 date: 2024-03-10T00:00:00.000Z
 description: "Wealth creation in essence is value creation to society exchanging for rewards \U0001F517; To gain outsize rewards, you have to become monopoly \U0001F517; Every individual is ..."
 ---

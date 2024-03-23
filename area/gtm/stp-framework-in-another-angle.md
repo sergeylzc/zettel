@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 理解STP另一个角度
-tags: area-gtm
+tags: gtm
 date: 2024-02-12T00:00:00.000Z
 description: >-
   按照不同维度拆分市场后，看看哪个细分市场还有机会，然后重点投入这个细分市场，这就形成了「目标市场」；

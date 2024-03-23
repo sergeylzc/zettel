@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: TikTok and the Sorting Hat
-tags: area-social-product
+tags: socialproduct
 date: 2024-02-12T00:00:00.000Z
 description: >-
   TikTok is an exception to my cultural determinist worldview My cultural

@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 科技叠层理论第三节：爆发式增长
-tags: read-essay-emergent-layers
+tags: emergentlayersessay
 date: 2024-03-17T00:00:00.000Z
 description: >-
   Introduction

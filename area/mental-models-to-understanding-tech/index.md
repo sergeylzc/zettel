@@ -2,11 +2,11 @@
 layout: layouts/list
 eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: area-mental-models-to-understanding-tech
+  key: understandtechmentalmodels
   title: Mental Models to Understanding Tech Industry
   parent: area
 eleventyComputed:
-  collectionKey: area-mental-models-to-understanding-tech
+  collectionKey: understandtechmentalmodels
 title: Mental Models to Understanding Tech Industry
 date: 2024-03-09
 ---

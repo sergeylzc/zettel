@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 找到平台生态内机会的思路
-tags: area-find-niche
+tags: findniche
 date: 2024-03-09T00:00:00.000Z
 description: >-
   浏览各平台应用市场的应用，如Slack、Atlassian、Chrome、Google Suite、Shopify、Notion等；

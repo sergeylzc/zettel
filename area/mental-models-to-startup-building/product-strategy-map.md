@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Product Strategy Map
-tags: area-mental-models-to-startup-building
+tags: startupbuildingmentalmodels
 date: 2024-03-10T00:00:00.000Z
 description: >-
   Target audience - narrowest relevant set of users; Problem you're solving -

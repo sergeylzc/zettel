@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 企业如何获得竞争优势？
-tags: area-gtm
+tags: gtm
 date: 2024-02-12T00:00:00.000Z
 description: >-
   企业经营成功的本质是因为获得了某种竞争优势； 进行市场细分只是企业的一个决策，而这个决策并不能保证企业成功；

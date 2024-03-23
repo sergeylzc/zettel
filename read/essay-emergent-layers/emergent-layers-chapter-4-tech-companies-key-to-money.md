@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 科技叠层理论第四节：技术公司赚钱的关键
-tags: read-essay-emergent-layers
+tags: emergentlayersessay
 date: 2024-03-17T00:00:00.000Z
 description: >-
   Introduction

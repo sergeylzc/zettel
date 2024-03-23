@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Monica.im冷启动
-tags: area-gtm
+tags: gtm
 date: 2024-03-09T00:00:00.000Z
 description: >-
   早期得益于收购一款基于搜索引擎的AI增强开源插件，有着不错的用户增速，通过这款工具进行导流的测试和优化，度过了冷启动期； 另外一个方式是Twitter

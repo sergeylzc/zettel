@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 何为决策？
-tags: area-better-thinker
+tags: betterthinker
 date: 2024-02-12T00:00:00.000Z
 description: >-
   决策是全部的思考工作，除了执行，一切皆决策； 决策是为谋与断： 谋，本质是方案能力，基于既有资源 & 潜在资源，描绘出达成目标的具体路径；

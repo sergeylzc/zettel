@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: DuckDuckGo's early days to get traction
-tags: area-gtm
+tags: gtm
 date: 2024-03-12T00:00:00.000Z
 description: >-
   DuckDuckGo had rather uneventful launch: posted it to Hacker News and received

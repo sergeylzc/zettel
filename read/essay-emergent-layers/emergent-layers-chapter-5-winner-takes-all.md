@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 科技叠层理论第五节：赢家通吃效应
-tags: read-essay-emergent-layers
+tags: emergentlayersessay
 date: 2024-03-17T00:00:00.000Z
 description: >-
   Introduction

@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 产品化个人理念
-tags: area-find-niche
+tags: findniche
 date: 2024-03-17T00:00:00.000Z
 description: >-
   围绕理念进行产品化不一定需要通过别人的理念，也可以是个人理念的践行：

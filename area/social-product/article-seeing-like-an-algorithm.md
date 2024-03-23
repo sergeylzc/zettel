@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Seeing Like an Algorithm
-tags: area-social-product
+tags: socialproduct
 date: 2024-02-12T00:00:00.000Z
 description: >-
   Intro For You Page algorithm is the connective tissue that makes TikTok work.

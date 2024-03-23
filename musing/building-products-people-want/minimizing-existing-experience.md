@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: 旧体验最小化
-tags: musing-building-products-people-want
+tags: buildingproductspeoplewant
 date: 2024-02-12T00:00:00.000Z
 description: >-
   旧体验是别人的产品，我们无法改变； 唯一能做的，就是选择在特定情景下的用户和选择用户的参考系；

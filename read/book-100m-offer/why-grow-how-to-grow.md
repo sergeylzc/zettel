@@ -1,7 +1,7 @@
 ---
 layout: layouts/detail
 title: Why grow and how to grow
-tags: read-book-100m-offer
+tags: book100moffers
 date: 2024-02-12T00:00:00.000Z
 description: >-
   As a company, you have to grow or die. You can't stand still if every around
