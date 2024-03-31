@@ -17,7 +17,6 @@ description: >-
 ---
 
 Ref:
-* <a href="https://marketingexamples.com/seo/cronitor" target="_blank">Cronitor's Little Side-Project
-</a>
+* <a href="https://marketingexamples.com/seo/cronitor" target="_blank">Cronitor's Little Side-Project</a>
 * <a href="https://cronitor.io/" target="_blank">Cronitor: Simple monitoring for every application</a>
 * <a href="https://crontab.guru/" target="_blank">crontab guru</a>
