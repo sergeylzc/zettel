@@ -2,7 +2,7 @@
 layout: layouts/detail
 title: >-
   Bullseye framework by Gabriel Weinberg Part 2 - How do you decide which
-  traction to focus on?
+  traction channel to focus on?
 tags: gtm
 date: 2024-03-22T00:00:00.000Z
 description: >-

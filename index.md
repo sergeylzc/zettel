@@ -7,18 +7,19 @@ date: 2024-03-09
 # 👋 I'm Sergey. Welcome to my corner of the internet.
 
 ## Notes
-* <a href="https://www.littletunnel.com/area/" data-note-url="/area/">Areas I'm studying</a>
+* <a href="https://www.littletunnel.com/area/" data-note-url="/area/">Areas with intense interest</a>
   * <a href="https://www.littletunnel.com/area/better-thinker/" data-note-url="/area/better-thinker/">Be a better thinker</a>
   * <a href="https://www.littletunnel.com/area/mental-models-to-startup-building/" data-note-url="/area/mental-models-to-startup-building/">Mental models to startup building</a>
-  * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">Ways to find niche opportunities</a>
+  * <a href="https://www.littletunnel.com/area/find-niche/" data-note-url="/area/find-niche/">How to find niche opportunities</a>
   * <a href="https://www.littletunnel.com/area/gtm/" data-note-url="/area/gtm/">The First 100 Users Playbook</a>
-  * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
   * <a href="https://www.littletunnel.com/area/mental-models-to-understanding-tech/" data-note-url="/area/mental-models-to-understanding-tech/">Mental Models to Understanding Tech Industry</a>
 * <a href="https://www.littletunnel.com/read/" data-note-url="/read/">What I've read</a>
   * <a href="https://www.littletunnel.com/read/book-100m-offer/" data-note-url="/read/book-100m-offer/">$100M Offers: How To Make Offers So Good People Feel Stupid Saying No</a>
   * <a href="https://www.littletunnel.com/read/essay-emergent-layers/" data-note-url="/read/essay-emergent-layers/">Emergent Layers by Alex Danco</a>
 * <a href="https://www.littletunnel.com/musing/" data-note-url="/musing/">Musings</a>
   * <a href="https://www.littletunnel.com/musing/building-products-people-want/" data-note-url="/musing/building-products-people-want/">Building products people want</a>
+* Archive
+  * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
 
 ## Writings
 * <a href="https://www.littletunnel.com/writing/social-network-for-knowledge-workers/" data-note-url="/writing/social-network-for-knowledge-workers/">Social Network for Knowledge Workers</a>

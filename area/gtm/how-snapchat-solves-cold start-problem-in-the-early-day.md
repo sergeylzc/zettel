@@ -4,13 +4,12 @@ title: How Snapchat solves cold start problem in the early day
 tags: gtm
 date: 2024-03-22T00:00:00.000Z
 description: >-
-  The channel they identified for their target audience was Twitter; The value
-  giving tactic they employed was sharing great content from other marketers;
-  The key...
+  Identified their target audience in the high school demographic; Then located
+  popular students in high schools, gave them the app, and incentivized the cool
+  kid...
 ---
-* The channel they identified for their target audience was Twitter; 
-* The value giving tactic they employed was sharing great content from other marketers; 
-* The key to drive engagement and awareness of KISSmetric was Hashtags. Their early efforts were focused on dominating a hashtag. 
+* Identified their target audience in the high school demographic;
+* Then located popular students in high schools, gave them the app, and incentivized the cool kids to share the app with others. [...] it was word of mouth within high schools.
 
 ---
 

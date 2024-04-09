@@ -14,7 +14,7 @@ description: >-
   * Who wants this problem solved. 
 2. Where do they hang out? To find out where your target audience hangs out:
   * Create a master list of potential places; 
-  * Establish criteria for what a solid marketing channel (<a href="https://www.littletunnel.com/reference/F33CA490/" data-note-url="/reference/F33CA490/">KISSmetric's</a>); 
+  * Establish criteria for what a solid marketing channel (<a href="https://www.littletunnel.com/area/gtm/criteria-for-what-a-solid-marketing-channel-is-to-kissmetric-in-the-early-day/" data-note-url="/area/gtm/criteria-for-what-a-solid-marketing-channel-is-to-kissmetric-in-the-early-day/">KISSmetric's</a>); 
   * Vet your list according to those criteria; 
 3. How do you engage with them? To engage with your customer:
   * Identify your method of engagement, e.g., using twitter hashtags; 

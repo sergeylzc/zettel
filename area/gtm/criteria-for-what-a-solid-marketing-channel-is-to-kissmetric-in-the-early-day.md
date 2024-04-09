@@ -1,12 +1,13 @@
 ---
-layout: layouts/stream-detail
-tags: reference
-date: 2024-03-22T10:19:01.960Z
-excerpt: |
-  Criteria for what a solid marketing channel is to KISS...
+layout: layouts/detail
+title: Criteria for what a solid marketing channel is to KISSmetric in the early day
+tags: gtm
+date: 2024-04-09T00:00:00.000Z
+description: >-
+  We were looking for online platforms where marketers connected professionally.
+  But we wanted more than a hangout. We also needed a marketing channel. After
+  all,...
 ---
-## Criteria for what a solid marketing channel is to KISSmetric in the early day
-
 We were looking for online platforms where marketers connected professionally. But we wanted more than a hangout. We also needed a marketing channel. After all, it doesn’t work to show up in a place and shout, “Hey, give us your money!” Instead, we needed to identify a place of opportunity — an opportunity for us to **listen, learn, and give value**.
 
 Here were the criteria we established for vetting viable marketing channels:
