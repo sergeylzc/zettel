@@ -1,6 +1,6 @@
 ---
 layout: layouts/detail
-title: 一条产业链的发展其实就是不断的bundling和unbundling的过程
+title: 一条产业链的发展是一个bundling和unbundling交替发展的过程
 tags: understandtechmentalmodels
 date: 2024-03-12T00:00:00.000Z
 description: >-
