@@ -1,7 +1,6 @@
 ---
 layout: layouts/tagindex
 eleventyExcludeFromCollections: true
-permalink: "/xiaomiji-newsletter"
 date: 2024-04-27
 ---
 <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
