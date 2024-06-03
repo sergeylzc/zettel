@@ -38,7 +38,9 @@ date: 2024-03-09
 * <a href="https://www.littletunnel.com/writing/how-to-create-luck/" data-note-url="/writing/how-to-create-luck/">如何创造好运</a>
 
 ## What am I up to these days?
-Work at [Anywhere Arc](https://anywherearc.com) making well-crafted software products
+Work at [Anywhere Arc](https://anywherearc.com) making well-crafted software products. Tools we have made:
+* <a href="https://slippod.com">Slippod: A simple note-taking app</a>
+* <a href="https://textpixie.com">TextPixie Translator: Free AI Translator Online</a>
 
 ## Elsewhere
 * X/Twitter: [@sergeylzc](https://twitter.com/sergeylzc)
