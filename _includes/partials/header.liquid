@@ -1,14 +1,15 @@
 <header>
   {% if back == true %}
-    {%- render "partials/back", collectionsAll: collections.all, page: page, env: env -%}
+    {%- render "partials/back"
+      , collectionsAll: collections.all
+      , page: page
+      , env: env -%}
   {% else %}
-    <div id="brand">
-      <a href="{{ env.SERVER_ENV | append: "/" }}">
+    <a href="{{ env.SERVER_ENV | append: "/" }}">
+      <div id="brand">
         <span class="logo"></span>
-        </a>
-      <a href="{{ env.SERVER_ENV | append: "/" }}">
         <span class="name">LittleTunnel</span>
-      </a>
-    </div>    
+      </div>
+    </a>
   {% endif %}
 </header>

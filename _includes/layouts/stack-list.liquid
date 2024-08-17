@@ -1,31 +1,45 @@
 ---
 layout: _html
 ---
-{%- render "partials/header", collectionsAll: collections.all, page: page, env: env -%}
+{%- render "partials/header"
+  , collectionsAll: collections.all
+  , page: page
+  , env: env -%}
 <div id="notesContainer">
   <div class="note" data-note-url="{{ page.url }}">
     <div id="notesHeader">
       <div id="notesListHeaderWrapper">
-          <h1>{{ title }}</h1>
+        <h1>{{ title }}</h1>
       </div>
     </div>
     <div id="notesList">
       {%- for card in collections[collectionKey] reversed -%}
         <div class="noteItem" id="{{ card.data.page.fileSlug }}">
-            <div class="noteWrapper">
-                <div class="content markdown-body">
-                  <h2>
-                    <a href="{{ env.SERVER_ENV | append: card.url }}">{{ card.data.title }}</a>
-                  </h2>
-                  {{ card.data.description }}
-                </div>
-                <div class="metaInfo">
-                    <a class="noteURL" href="{{ env.SERVER_ENV | append: card.url }}" target="_blank">Permanent Link</a> ·
-                    <time class="updatedAt">{{ card.date | postTime }}</time>
-                </div>
+          <div class="noteWrapper">
+            <div class="content markdown-body">
+              <h2>
+                <a href="{{ env.SERVER_ENV | append: card.url }}">{{ card.data.title }}</a>
+              </h2>
+              {{ card.data.description }}
             </div>
+            <div class="metaInfo">
+              <a
+                class="noteURL"
+                href="{{ env.SERVER_ENV | append: card.url }}"
+                target="_blank">Permanent Link</a>
+              ·
+              <time class="updatedAt">{{ card.date | postTime }}</time>
+            </div>
+          </div>
         </div>
       {%- endfor -%}
+    </div>
+    <div class="noteFooter markdown-body">
+      <p>Nowadays, I spend most of my time building softwares, which has become my default way of online expression. Currently, I'm working on
+        <a href="http://slippod.com/">Slippod, a privacy-first desktop note-taking app</a>
+        and
+        <a href="http://textpixie.com/">TextPixie, a tool to transform text including translation and extraction</a>.
+      </p>
     </div>
   </div>
 </div>

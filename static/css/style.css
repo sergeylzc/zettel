@@ -167,6 +167,14 @@ header .back span {
     border-bottom: 1px solid #8F9193;
 }
 
+.note .noteFooter {
+    @apply mt-4;
+    padding: 1.5rem;
+    background-color: #FFFFFF;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 2px #0000000d;
+}
+
 .note .noteLinks .linkTypeTab {
     margin-top: 1rem;
     margin-bottom: 1rem;
