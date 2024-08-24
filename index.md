@@ -39,7 +39,7 @@ date: 2024-03-09
 
 ## What am I up to these days?
 Work at [Anywhere Arc](https://anywherearc.com) along with my long time friend <a href="https://liyafu.com/">Yafu</a> making well-crafted software products. Tools we have made:
-* <a href="https://slippod.com">Slippod: A simple note-taking app</a>
+* <a href="https://slippod.com">Slippod: Privacy-first Desktop Note-taking app</a>
 * <a href="https://textpixie.com">TextPixie Translator: Free AI Translator Online</a>
 
 ## Elsewhere
