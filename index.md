@@ -43,7 +43,8 @@ Work at [Anywhere Arc](https://anywherearc.com) along with my long time friend <
 * <a href="https://textpixie.com">TextPixie Translator: Free AI Translator Online</a>
 
 ## Elsewhere
-* X/Twitter: [@sergeylzc](https://twitter.com/sergeylzc)
+* X/Twitter: [@sergeylzc](https://twitter.com/sgeyzc)
+* [Douban](https://www.douban.com/people/lizhicong815/)
 
 ## Colophon
 This site is written, edited and published with [Slippod](https://slippod.com).
