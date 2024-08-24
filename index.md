@@ -45,7 +45,7 @@ Work at [Anywhere Arc](https://anywherearc.com) along with my long time friend <
 ## Elsewhere
 * X/Twitter: [@sergeylzc](https://twitter.com/sgeyzc)
 * [Douban](https://www.douban.com/people/lizhicong815/)
-* Writer @ [Xiaomiji](https://xiaomiji.net/)
+* Writer @ [小秘笈](https://xiaomiji.net/)
 
 ## Colophon
 This site is written, edited and published with [Slippod](https://slippod.com).
