@@ -29,5 +29,7 @@ Christian Dillo 在他的书《The Path of Aliveness》中提到一个与负面�
 
 我们可以像皮克斯电影《头脑特工队》中所讲述的一样，把不同情绪看成不同的人物，它们有自己的性格，会在我们意识中发出不同的声音。然后每当负面思绪出现，我们不妨给自己一个心理暗示：你们要来就来，一边自己玩去，我才没有时间搭理你们。你们可以冲我发脾气，但我也是有脾气的，哼！
 
-#### References
+---
+
+**References**
 * [The Imperfectionist: Don't invite your thoughts to tea](https://ckarchive.com/b/4zuvheh5ndr97)

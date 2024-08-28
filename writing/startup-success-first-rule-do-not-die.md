@@ -24,7 +24,9 @@ Flexport 截至目前为止总共进行了 19 轮融资，总融资额为 24 亿
 
 所以，如果你有创业想法，可以参考 Ryan Peterson 的方法，规划好自己的工作和生活，以便有足够的自由和生存时间持续尝试，直到把事情做对为止。
 
-#### References
+---
+
+**References**
 * [Flexport CEO Ryan Petersen on Scaling a Startup from Zero to $8B
 ](https://youtu.be/lm3lfZza1ro)
 * [International Trade Databases for Import-Export Businesses | ImportGenius](https://www.importgenius.com/)
