@@ -21,7 +21,7 @@ date: 2024-03-09
 * Archive
   * <a href="https://www.littletunnel.com/area/social-product/" data-note-url="/area/social-product/">Building successful social products</a>
 
-## Writings
+## [Writings](https://www.littletunnel.com/writing/)
 * <a href="https://www.littletunnel.com/writing/mental-model-to-choose-a-market-for-indie-hackers/" data-note-url="/writing/mental-model-to-choose-a-market-for-indie-hackers/">Mental Model to Choose a Market for Indie Hackers</a>
 * <a href="https://www.littletunnel.com/writing/social-network-for-knowledge-workers/" data-note-url="/writing/social-network-for-knowledge-workers/">Social Network for Knowledge Workers</a>
 * <a href="https://www.littletunnel.com/writing/why-procrastination/" data-note-url="/writing/why-procrastination/">我们为什么会拖延？</a>
